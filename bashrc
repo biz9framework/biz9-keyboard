@@ -337,7 +337,6 @@ export ANDROID_BUILD_TOOLS="${HOME}/www/doqbox/toolz/android/android-sdk-build-t
 export ANDROID_EMULATOR="${HOME}/www/doqbox/toolz/android/emulator/genymotion"
 export ANDROID_PLATFORM_TOOLS="${HOME}/www/doqbox/toolz/android/platform-tools-src/platform-tools"
 export GRADLE_HOME=/opt/gradle
-#export PATH=${PATH}:${ANDROID_HOME}:${ANDROID_EMULATOR}:${GRADLE_HOME}/bin
 export PATH=${PATH}:${ANDROID_HOME}:${ANDROID_PLATFORM_TOOLS}:${ANDROID_EMULATOR}:${GRADLE_HOME}/bin
 #### ANDROID SDK END ###
 #
