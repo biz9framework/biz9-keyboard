@@ -1,0 +1,22 @@
+{
+  "name": "biz9-keyboard",
+  "version": "1.0.11",
+  "description": "Linux Keyboard commandZ you must know to operate efficiently as a BiZ9 Framework Developer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biz9framework/biz9-keyboard.git"
+  },
+  "author": "Certified CoderZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biz9framework/biz9-keyboard/issues"
+  },
+  "homepage": "https://github.com/biz9framework/biz9-keyboard#readme",
+  "dependencies": {
+    "biz9-system": "^1.3.15"
+  }
+}
