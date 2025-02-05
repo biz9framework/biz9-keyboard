@@ -22,10 +22,9 @@ alias 9_go_biz='cd ${BIZ9_HOME}';
 #biz9-framework-src
 alias 9_go_help="cd ${BIZ9_HOME}/biz9-help/code";
 alias 9_go_scriptz="cd ${BIZ9_HOME}/biz9-scriptz/code";
-alias 9_go_test="cd ${BIZ9_HOME}/biz9-test/code";
 
-alias 9_go_adapter-server='cd ${BIZ9_HOME}/biz9-adapter-server/code';
-alias 9_go_adapter-client='cd ${BIZ9_HOME}/biz9-adapter-client/code';
+alias 9_go_adapter_server='cd ${BIZ9_HOME}/biz9-adapter-server/code';
+alias 9_go_adapter_client='cd ${BIZ9_HOME}/biz9-adapter-client/code';
 
 alias 9_go_data_server='cd ${BIZ9_HOME}/biz9-data-server/code';
 alias 9_go_data_client='cd ${BIZ9_HOME}/biz9-data-client/code';
