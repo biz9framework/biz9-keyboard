@@ -24,7 +24,9 @@ alias 9_go_help="cd ${BIZ9_HOME}/biz9-help/code";
 alias 9_go_scriptz="cd ${BIZ9_HOME}/biz9-scriptz/code";
 alias 9_go_test="cd ${BIZ9_HOME}/biz9-test/code";
 
-alias 9_go_adapter='cd ${BIZ9_HOME}/biz9-adapter-server/code';
+alias 9_go_adapter-server='cd ${BIZ9_HOME}/biz9-adapter-server/code';
+alias 9_go_adapter-client='cd ${BIZ9_HOME}/biz9-adapter-client/code';
+
 alias 9_go_data_server='cd ${BIZ9_HOME}/biz9-data-server/code';
 alias 9_go_data_client='cd ${BIZ9_HOME}/biz9-data-client/code';
 
@@ -36,8 +38,6 @@ alias 9_go_service_server='cd ${BIZ9_HOME}/biz9-service-server/code';
 
 alias 9_go_app_client='cd ${BIZ9_HOME}/biz9-app-client/code';
 alias 9_go_app_server='cd ${BIZ9_HOME}/biz9-app-server/code';
-
-
 
 #biz9-framework-src
 alias 9_go_biz9_react_script='cd ${BIZ9_HOME}/biz9-react-script';
@@ -56,7 +56,6 @@ alias 9_go_downloadz='cd ${HOME}/Downloads';
 
 alias 9_go_config_bashrc='vi ~/.bashrc'
 alias 9_go_config_vim='vi ~/.vimrc'
-
 
 #app
 alias 9_app_info="bash ${BIZ9_SCRIPTZ_DIRECTORY}app_info.sh";
@@ -117,7 +116,6 @@ alias 9_open_sublime='subl ';
 alias 9_kill_app='kill -9 ';
 alias 9_kill_all_node='killall node';
 alias 9_kill_all_app='killall ';
-
 
 ##ALIAS END ###
 
