@@ -20,33 +20,20 @@ export BIZ9_SCRIPTZ_DIRECTORY="node_modules/biz9-scriptz/scriptz/";
 alias 9_go_biz='cd ${BIZ9_HOME}';
 
 #biz9-framework-src
-alias 9_go_help="cd ${BIZ9_HOME}/biz9-help/code";
-
 alias 9_go_art="cd ${BIZ9_HOME}/biz9-art/code";
+alias 9_go_help="cd ${BIZ9_HOME}/biz9-help/code";
 alias 9_go_scriptz="cd ${BIZ9_HOME}/biz9-scriptz/code";
-alias 9_go_adapter='cd ${BIZ9_HOME}/biz9-adapter/code';
+alias 9_go_logic='cd ${BIZ9_HOME}/biz9-logic/code';
 alias 9_go_utility='cd ${BIZ9_HOME}/biz9-utility/code';
-
-
-#alias 9_go_adapter_client='cd ${BIZ9_HOME}/biz9-adapter-client/code';
-
-alias 9_go_data_server='cd ${BIZ9_HOME}/biz9-data-server/code';
-alias 9_go_data_client='cd ${BIZ9_HOME}/biz9-data-client/code';
-
-#alias 9_go_utility_client='cd ${BIZ9_HOME}/biz9-utility-client/code';
-
-alias 9_go_service_client='cd ${BIZ9_HOME}/biz9-service-client/code';
+alias 9_go_data='cd ${BIZ9_HOME}/biz9-data/code';
 alias 9_go_service_server='cd ${BIZ9_HOME}/biz9-service-server/code';
+alias 9_go_remote='cd ${BIZ9_HOME}/biz9-remote/code';
 
-alias 9_go_app_client='cd ${BIZ9_HOME}/biz9-app-client/code';
-alias 9_go_app_server='cd ${BIZ9_HOME}/biz9-app-server/code';
+#biz9-projectz-src
+alias 9_go_dg_cms='cd ${BIZ9_PROJECTZ}/dreamgigs/cms-react/code';
+alias 9_go_dg_service='cd ${BIZ9_PROJECTZ}/dreamgigs/service-node/code';
 
-#biz9-framework-src
-alias 9_go_biz9_react_script='cd ${BIZ9_HOME}/biz9-react-script';
-
-alias 9_go_dreamgigs_cms='cd ${BIZ9_PROJECTZ}/dreamgigs/cms-react/code';
-alias 9_go_dreamgigs_service='cd ${BIZ9_PROJECTZ}/dreamgigs/service-react/code';
-
+#app
 alias 9_open_blogreader='newsboat';
 alias 9_open_calc='gnome-calculator &';
 alias 9_open_calendar='cal -A 5';
@@ -138,23 +125,18 @@ alias 9_os_info="lsb_release -a";
 ### ALIAS TEST START ###
 alias 9_test_ping="bash test_run ping";
 alias 9_test_uptime="bash test_run uptime";
-alias 9_test_run="bash test_run run";
+alias 9_test_get_url="bash test_run get_url";
+alias 9_test_post_url="bash test_run post_url";
 #
 alias 9_test_connect='bash test_run connect';
 alias 9_test_item_update='bash test_run item_update';
+alias 9_test_item_update_list='bash test_run item_list_update';
 alias 9_test_item_get='bash test_run item_get';
 alias 9_test_item_delete='bash test_run item_delete';
-alias 9_test_item_delete_list='bash test_run item_delete_list';
+alias 9_test_item_delete_list='bash test_run item_list_delete';
 alias 9_test_item_get_list='bash test_run item_get_list';
 alias 9_test_get_data='bash test_run get_data';
 alias 9_test_update_data='bash test_run update_data';
-
-#alias 9_test_item_again_update='bash test_run item_again_update';
-#alias 9_test_item_update_list='bash test_run item_list_update';
-#alias 9_test_item_delete_list='bash test_run delete_list_item';
-#alias 9_test_item_get_list='bash test_run get_item';
-#alias 9_test_item_count_list='bash test_run count_list';
-#alias 9_test_update_local_system='bash test_run update_local_system';
 ### ALIAS TEST END ###
 #
 ### OTHER START ###
