@@ -26,7 +26,7 @@ alias 9_go_scriptz="cd ${BIZ9_HOME}/biz9-scriptz/code";
 alias 9_go_logic='cd ${BIZ9_HOME}/biz9-logic/code';
 alias 9_go_utility='cd ${BIZ9_HOME}/biz9-utility/code';
 alias 9_go_data='cd ${BIZ9_HOME}/biz9-data/code';
-alias 9_go_service_server='cd ${BIZ9_HOME}/biz9-service-server/code';
+alias 9_go_service='cd ${BIZ9_HOME}/biz9-service/code';
 alias 9_go_remote='cd ${BIZ9_HOME}/biz9-remote/code';
 
 #biz9-projectz-src
@@ -125,16 +125,13 @@ alias 9_os_info="lsb_release -a";
 ### ALIAS TEST START ###
 alias 9_test_ping="bash test_run ping";
 alias 9_test_uptime="bash test_run uptime";
-alias 9_test_get_url="bash test_run get_url";
-alias 9_test_post_url="bash test_run post_url";
-#
 alias 9_test_connect='bash test_run connect';
 alias 9_test_item_update='bash test_run item_update';
-alias 9_test_item_update_list='bash test_run item_list_update';
 alias 9_test_item_get='bash test_run item_get';
 alias 9_test_item_delete='bash test_run item_delete';
-alias 9_test_item_delete_list='bash test_run item_list_delete';
-alias 9_test_item_get_list='bash test_run item_get_list';
+alias 9_test_list_item_update='bash test_run list_item_update';
+alias 9_test_list_item_get='bash test_run list_item_get';
+alias 9_test_list_item_delete='bash test_run list_item_delete';
 alias 9_test_get_data='bash test_run get_data';
 alias 9_test_update_data='bash test_run update_data';
 ### ALIAS TEST END ###
