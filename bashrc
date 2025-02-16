@@ -39,10 +39,7 @@ alias 9_open_calc='gnome-calculator &';
 alias 9_open_calendar='cal -A 5';
 alias 9_open_sublime='subl ';
 
-
-###TANK_LOCAL_ONLY_END ###
-
-##ALIAS START ###
+#project configs
 alias 9_go_projectz='cd ${BIZ9_PROJECT_DIRECTORY}'
 alias 9_go_keyboard_shortcutz='vi ${HOME}/www/doqbox/biz9-framework/biz9-keyboard/code/bashrc';
 
@@ -51,6 +48,8 @@ alias 9_go_downloadz='cd ${HOME}/Downloads';
 
 alias 9_go_config_bashrc='vi ~/.bashrc'
 alias 9_go_config_vim='vi ~/.vimrc'
+
+###TANK_LOCAL_ONLY_END ###
 
 ## BiZ9 Framework ScriptZ Alias Start ###
 #app
@@ -109,19 +108,8 @@ alias 9_redis_flush="redis-cli FLUSHALL";
 #os
 alias 9_os_info="lsb_release -a";
 
-##ALIAS END ###
+## BiZ9 Framework ScriptZ Alias End ###
 
-
-
-
-### ALIAS APP START ###
-
-### ALIAS MONGO START ###
-### ALIAS MONGO END ###
-#
-### ALIAS OTHER START ###
-### ALIAS OTHER END ###
-#
 ### ALIAS TEST START ###
 alias 9_test_ping="bash test_run ping";
 alias 9_test_uptime="bash test_run uptime";
@@ -129,11 +117,11 @@ alias 9_test_connect='bash test_run connect';
 alias 9_test_item_update='bash test_run item_update';
 alias 9_test_item_get='bash test_run item_get';
 alias 9_test_item_delete='bash test_run item_delete';
-alias 9_test_list_item_update='bash test_run list_item_update';
-alias 9_test_list_item_get='bash test_run list_item_get';
-alias 9_test_list_item_delete='bash test_run list_item_delete';
+alias 9_test_item_list_update='bash test_run item_list_update';
+alias 9_test_item_list_get='bash test_run item_list_get';
+alias 9_test_item_list_delete='bash test_run item_list_delete';
 alias 9_test_get_data='bash test_run get_data';
-alias 9_test_update_data='bash test_run update_data';
+alias 9_test_post_data='bash test_run post_data';
 ### ALIAS TEST END ###
 #
 ### OTHER START ###
