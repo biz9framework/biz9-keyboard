@@ -4,8 +4,8 @@
 ### ==========================================
 #
 ##GLOBAL VARIABLE START ###
-export BIZ9_HOME=${HOME}/www/doqbox/biz9-framework
-export BIZ9_PROJECTZ=${HOME}/www/doqbox/biz9-projectz
+export BIZ9_HOME=${HOME}/www/doqbox/biz9-framework/
+export BIZ9_PROJECTZ=${HOME}/www/doqbox/biz9-projectz/
 export NODE_ENV='test'; # opts=test,production
 export BIZ9_GIT_BRANCH='main';
 export BIZ9_GIT_REPO="git@github.com:biz9framework/";
@@ -20,18 +20,22 @@ export BIZ9_SCRIPTZ_DIRECTORY="node_modules/biz9-scriptz/scriptz/";
 alias 9_go_biz='cd ${BIZ9_HOME}';
 
 #biz9-framework-src
-alias 9_go_art="cd ${BIZ9_HOME}/biz9-art/code";
-alias 9_go_help="cd ${BIZ9_HOME}/biz9-help/code";
-alias 9_go_scriptz="cd ${BIZ9_HOME}/biz9-scriptz/code";
-alias 9_go_logic='cd ${BIZ9_HOME}/biz9-logic/code';
-alias 9_go_utility='cd ${BIZ9_HOME}/biz9-utility/code';
-alias 9_go_data='cd ${BIZ9_HOME}/biz9-data/code';
-alias 9_go_service='cd ${BIZ9_HOME}/biz9-service/code';
-alias 9_go_remote='cd ${BIZ9_HOME}/biz9-remote/code';
+alias 9_go_art="cd ${BIZ9_HOME}biz9-art/code";
+alias 9_go_black="cd ${BIZ9_PROJECTZ}black/code";
+alias 9_go_help="cd ${BIZ9_HOME}biz9-help/code";
+alias 9_go_scriptz="cd ${BIZ9_HOME}biz9-scriptz/code";
+alias 9_go_logic='cd ${BIZ9_HOME}biz9-logic/code';
+alias 9_go_logic_js='cd ${BIZ9_HOME}biz9-logic-js/code';
+alias 9_go_utility='cd ${BIZ9_HOME}biz9-utility/code';
+alias 9_go_utility_js='cd ${BIZ9_HOME}biz9-utility-js/code';
+alias 9_go_data='cd ${BIZ9_HOME}biz9-data/code';
+alias 9_go_service='cd ${BIZ9_HOME}biz9-service/code';
+alias 9_go_remote='cd ${BIZ9_HOME}biz9-remote/code';
+alias 9_go_remote_js='cd ${BIZ9_HOME}biz9-remote-js/code';
 
 #biz9-projectz-src
-alias 9_go_dg_cms='cd ${BIZ9_PROJECTZ}/dreamgigs/cms-react/code';
-alias 9_go_dg_service='cd ${BIZ9_PROJECTZ}/dreamgigs/service-node/code';
+alias 9_go_dg_cms='cd ${BIZ9_PROJECTZ}dreamgigs/cms-react/code';
+alias 9_go_dg_service='cd ${BIZ9_PROJECTZ}dreamgigs/service-node/code';
 
 #app
 alias 9_open_blogreader='newsboat';
@@ -65,7 +69,7 @@ alias 9_search_filename="bash ${BIZ9_SCRIPTZ_DIRECTORY}search_filename.sh";
 
 alias 9_open_unzip="unzip ";
 alias 9_open_ungzip="gzip -d ";
-alias 9_open_zip_create="zip ";
+alias 9_open_zip_create="zip -r my_arch.zip my_folder";
 
 alias 9_kill_app='kill -9 ';
 alias 9_kill_all_node='killall node';
