@@ -1,6 +1,6 @@
 ### ==========================================
 # BiZ9 Keyboard CommandZ
-# Author: #Certified CoderZ
+# Author: #BiZ9 Framework LLC
 ### ==========================================
 #
 ##GLOBAL VARIABLE START ###
@@ -21,7 +21,8 @@ alias 9_go_biz='cd ${BIZ9_HOME}';
 
 #biz9-framework-src
 alias 9_go_art="cd ${BIZ9_HOME}biz9-art/code";
-alias 9_go_black="cd ${BIZ9_PROJECTZ}black/code";
+alias 9_go_adapter="cd ${BIZ9_HOME}biz9-adapter/code";
+alias 9_go_black="cd ${BIZ9_PROJECTZ}biz9-black/code";
 alias 9_go_help="cd ${BIZ9_HOME}biz9-help/code";
 alias 9_go_scriptz="cd ${BIZ9_HOME}biz9-scriptz/code";
 alias 9_go_logic='cd ${BIZ9_HOME}biz9-logic/code';
@@ -34,8 +35,8 @@ alias 9_go_remote='cd ${BIZ9_HOME}biz9-remote/code';
 alias 9_go_remote_js='cd ${BIZ9_HOME}biz9-remote-js/code';
 
 #biz9-projectz-src
-alias 9_go_dg_cms='cd ${BIZ9_PROJECTZ}dreamgigs/cms-react/code';
-alias 9_go_dg_service='cd ${BIZ9_PROJECTZ}dreamgigs/service-node/code';
+alias 9_go_dg_react='cd ${BIZ9_PROJECTZ}dreamgigs/cms-react/code';
+alias 9_go_dg_node='cd ${BIZ9_PROJECTZ}dreamgigs/cms-node/code';
 
 #app
 alias 9_open_blogreader='newsboat';
@@ -104,6 +105,7 @@ alias 9_mongo_start="sudo mongod --fork --config /etc/mongod.conf";
 
 #npm
 alias 9_npm_publish="bash ${BIZ9_SCRIPTZ_DIRECTORY}npm_publish.sh";
+alias 9_npm_cache_clear="bash ${BIZ9_SCRIPTZ_DIRECTORY}npm_cache_clear.sh";
 
 #redis
 alias 9_redis_start="service redis-server start";
@@ -126,6 +128,8 @@ alias 9_test_item_list_get='bash test_run item_list_get';
 alias 9_test_item_list_delete='bash test_run item_list_delete';
 alias 9_test_get_data='bash test_run get_data';
 alias 9_test_post_data='bash test_run post_data';
+alias 9_test_upload_file='bash test_run upload_file';
+alias 9_test_admin_add='bash test_run admin_add';
 ### ALIAS TEST END ###
 #
 ### OTHER START ###
