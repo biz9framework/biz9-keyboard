@@ -31,8 +31,8 @@ alias 9_go_utility='cd ${BIZ9_HOME}biz9-utility/code';
 alias 9_go_utility_js='cd ${BIZ9_HOME}biz9-utility-js/code';
 alias 9_go_data='cd ${BIZ9_HOME}biz9-data/code';
 alias 9_go_service='cd ${BIZ9_HOME}biz9-service/code';
-alias 9_go_remote='cd ${BIZ9_HOME}biz9-remote/code';
-alias 9_go_remote_js='cd ${BIZ9_HOME}biz9-remote-js/code';
+alias 9_go_react_remote='cd ${BIZ9_HOME}biz9-react-remote/code';
+alias 9_go_cms='cd ${BIZ9_PROJECTZ}dreamgigs/cms-react/code';
 
 #biz9-projectz-src
 alias 9_go_dg_react='cd ${BIZ9_PROJECTZ}dreamgigs/cms-react/code';
@@ -48,6 +48,9 @@ alias 9_open_sublime='subl ';
 alias 9_go_projectz='cd ${BIZ9_PROJECT_DIRECTORY}'
 alias 9_go_keyboard_shortcutz='vi ${HOME}/www/doqbox/biz9-framework/biz9-keyboard/code/bashrc';
 
+alias 9_go_project_901='cd ${BIZ9_PROJECT_DIRECTORY}/901/code/corp-react'
+alias 9_go_project_500='cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web'
+
 alias 9_go_home='cd ~/www'
 alias 9_go_downloadz='cd ${HOME}/Downloads';
 
@@ -61,6 +64,7 @@ alias 9_go_config_vim='vi ~/.vimrc'
 alias 9_app_info="bash ${BIZ9_SCRIPTZ_DIRECTORY}app_info.sh";
 
 #app service
+alias 9_node_mongo_start='9_mongo_start; 9_node_service_start'
 alias 9_node_service_start='nodemon bin/www';
 alias 9_port_open_list='sudo netstat -ntlp | grep LISTEN';
 alias 9_react_start='npm start';
@@ -79,6 +83,9 @@ alias 9_kill_all_app='killall ';
 #diff
 alias 9_diff_file='diff --side-by-side';
 alias 9_diff_folder="diff --brief --recursive --exclude '*.git'";
+
+#framework
+alias 9_project_framework_update="bash ${BIZ9_SCRIPTZ_DIRECTORY}project_framework_update.sh"
 
 #git
 alias 9_git_branch_update="bash ${BIZ9_SCRIPTZ_DIRECTORY}git_branch_update.sh"
@@ -105,7 +112,15 @@ alias 9_mongo_start="sudo mongod --fork --config /etc/mongod.conf";
 
 #npm
 alias 9_npm_publish="bash ${BIZ9_SCRIPTZ_DIRECTORY}npm_publish.sh";
-alias 9_npm_cache_clear="bash ${BIZ9_SCRIPTZ_DIRECTORY}npm_cache_clear.sh";
+alias 9_npm_cache_clear="npm cache clean --force";
+alias 9_npm_library_biz9_logic_uninstall="npm uninstall biz9-logic --force";
+alias 9_npm_library_biz9_logic_install="npm install biz9-logic --force";
+alias 9_npm_library_biz9_utility_uninstall="npm uninstall biz9-utility --force";
+alias 9_npm_library_biz9_utility_install="npm install biz9-utility --force";
+alias 9_npm_library_biz9_data_uninstall="npm uninstall biz9-data --force";
+alias 9_npm_library_biz9_data_install="npm install biz9-data --force";
+alias 9_npm_library_biz9_react_remote_install="npm install biz9-react-remote --force";
+alias 9_npm_library_biz9_react_remote_uninstall="npm install biz9-react-remote --force";
 
 #redis
 alias 9_redis_start="service redis-server start";
@@ -130,6 +145,7 @@ alias 9_test_get_data='bash test_run get_data';
 alias 9_test_post_data='bash test_run post_data';
 alias 9_test_upload_file='bash test_run upload_file';
 alias 9_test_admin_add='bash test_run admin_add';
+alias 9_test_admin_update='bash test_run admin_update';
 ### ALIAS TEST END ###
 #
 ### OTHER START ###
