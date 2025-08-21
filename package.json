@@ -1,6 +1,6 @@
 {
   "name": "biz9-keyboard",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "description": "Linux Keyboard commandZ you must know to operate efficiently as a BiZ9 Framework Developer.",
   "main": "index.js",
   "scripts": {

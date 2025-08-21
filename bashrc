@@ -57,6 +57,14 @@ alias 9_go_downloadz='cd ${HOME}/Downloads';
 alias 9_go_config_bashrc='vi ~/.bashrc'
 alias 9_go_config_vim='vi ~/.vimrc'
 
+alias 9_start_project_500='cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web;9_react_start'
+alias 9_edit_project_500='cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web;vi'
+alias 9_start_service='cd ${BIZ9_HOME}biz9-service/code;9_node_mongo_start';
+alias 9_edit_service='cd ${BIZ9_HOME}biz9-service/code;vi';
+alias 9_edit_logic='cd ${BIZ9_HOME}biz9-logic/code;vi';
+alias 9_edit_data='cd ${BIZ9_HOME}biz9-data/code;vi';
+alias 9_edit_utility='cd ${BIZ9_HOME}biz9-utility/code;vi';
+
 ###TANK_LOCAL_ONLY_END ###
 
 ## BiZ9 Framework ScriptZ Alias Start ###
@@ -94,6 +102,8 @@ alias 9_git_commit="bash ${BIZ9_SCRIPTZ_DIRECTORY}git_commit.sh";
 alias 9_git_hub_test='ssh -T git@github.com';
 alias 9_git_push="bash ${BIZ9_SCRIPTZ_DIRECTORY}git_push.sh";
 alias 9_git_pull="bash ${BIZ9_SCRIPTZ_DIRECTORY}git_pull.sh";
+alias 9_git_deploy="9_git_commit;9_git_push";
+alias 9_git_npm_publish="9_git_commit;9_git_push;9_npm_publish";
 alias 9_git_reset_init="bash ${BIZ9_SCRIPTZ_DIRECTORY}git_reset_init.sh";
 alias 9_git_main_branch_merge_checkout="bash ${BIZ9_SCRIPTZ_DIRECTORY}git_main_branch_merge_checkout.sh";
 
@@ -115,10 +125,13 @@ alias 9_npm_publish="bash ${BIZ9_SCRIPTZ_DIRECTORY}npm_publish.sh";
 alias 9_npm_cache_clear="npm cache clean --force";
 alias 9_npm_library_biz9_logic_uninstall="npm uninstall biz9-logic --force";
 alias 9_npm_library_biz9_logic_install="npm install biz9-logic --force";
+alias 9_npm_library_biz9_logic_setup="npm uninstall biz9-logic --force; npm install biz9-logic --force";
 alias 9_npm_library_biz9_utility_uninstall="npm uninstall biz9-utility --force";
 alias 9_npm_library_biz9_utility_install="npm install biz9-utility --force";
+alias 9_npm_library_biz9_utility_setup="npm uninstall biz9-utility --force; npm install biz9-utility --force";
 alias 9_npm_library_biz9_data_uninstall="npm uninstall biz9-data --force";
 alias 9_npm_library_biz9_data_install="npm install biz9-data --force";
+alias 9_npm_library_biz9_data_setup="npm uninstall biz9-data --force; npm install biz9-data --force";
 alias 9_npm_library_biz9_react_remote_install="npm install biz9-react-remote --force";
 alias 9_npm_library_biz9_react_remote_uninstall="npm install biz9-react-remote --force";
 
