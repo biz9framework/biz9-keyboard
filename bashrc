@@ -26,6 +26,7 @@ alias 9_go_black="cd ${BIZ9_PROJECTZ}biz9-black/code";
 alias 9_go_help="cd ${BIZ9_HOME}biz9-help/code";
 alias 9_go_scriptz="cd ${BIZ9_HOME}biz9-scriptz/code";
 alias 9_go_logic='cd ${BIZ9_HOME}biz9-logic/code';
+alias 9_go_notification='cd ${BIZ9_HOME}biz9-notification/code';
 alias 9_go_logic_js='cd ${BIZ9_HOME}biz9-logic-js/code';
 alias 9_go_utility='cd ${BIZ9_HOME}biz9-utility/code';
 alias 9_go_utility_js='cd ${BIZ9_HOME}biz9-utility-js/code';
@@ -48,8 +49,8 @@ alias 9_open_sublime='subl ';
 alias 9_go_projectz='cd ${BIZ9_PROJECT_DIRECTORY}'
 alias 9_go_keyboard_shortcutz='vi ${HOME}/www/doqbox/biz9-framework/biz9-keyboard/code/bashrc';
 
-alias 9_go_project_901='cd ${BIZ9_PROJECT_DIRECTORY}/901/code/corp-react'
-alias 9_go_project_500='cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web'
+alias 9_go_901='cd ${BIZ9_PROJECT_DIRECTORY}/901/code/corp-react'
+alias 9_go_500='cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web'
 
 alias 9_go_home='cd ~/www'
 alias 9_go_downloadz='cd ${HOME}/Downloads';
@@ -57,13 +58,15 @@ alias 9_go_downloadz='cd ${HOME}/Downloads';
 alias 9_go_config_bashrc='vi ~/.bashrc'
 alias 9_go_config_vim='vi ~/.vimrc'
 
-alias 9_start_project_500='cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web;9_react_start'
-alias 9_edit_project_500='cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web;vi'
+alias 9_start_500='cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web;9_react_start'
 alias 9_start_service='cd ${BIZ9_HOME}biz9-service/code;9_node_mongo_start';
-alias 9_edit_service='cd ${BIZ9_HOME}biz9-service/code;vi';
-alias 9_edit_logic='cd ${BIZ9_HOME}biz9-logic/code;vi';
-alias 9_edit_data='cd ${BIZ9_HOME}biz9-data/code;vi';
-alias 9_edit_utility='cd ${BIZ9_HOME}biz9-utility/code;vi';
+
+alias 9_edit_500="cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web;vi -c 'NERDTree'"
+alias 9_edit_service="cd ${BIZ9_HOME}biz9-service/code;vi -c 'NERDTree'";
+alias 9_edit_logic="cd ${BIZ9_HOME}biz9-logic/code;vi -c 'NERDTree'";
+alias 9_edit_notification="cd ${BIZ9_HOME}biz9-notification/code;vi';
+alias 9_edit_data="cd ${BIZ9_HOME}biz9-data/code;vi -c 'NERDTree'";
+alias 9_edit_utility="cd ${BIZ9_HOME}biz9-utility/code;vi -c 'NERDTree'";
 
 ###TANK_LOCAL_ONLY_END ###
 
@@ -126,6 +129,7 @@ alias 9_npm_cache_clear="npm cache clean --force";
 alias 9_npm_library_biz9_logic_uninstall="npm uninstall biz9-logic --force";
 alias 9_npm_library_biz9_logic_install="npm install biz9-logic --force";
 alias 9_npm_library_biz9_logic_setup="npm uninstall biz9-logic --force; npm install biz9-logic --force";
+alias 9_npm_library_biz9_scriptz_setup="npm uninstall biz9-scriptz --force; npm install biz9-scriptz --force";
 alias 9_npm_library_biz9_utility_uninstall="npm uninstall biz9-utility --force";
 alias 9_npm_library_biz9_utility_install="npm install biz9-utility --force";
 alias 9_npm_library_biz9_utility_setup="npm uninstall biz9-utility --force; npm install biz9-utility --force";
