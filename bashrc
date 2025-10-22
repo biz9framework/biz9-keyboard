@@ -13,8 +13,10 @@ export BIZ9_PROJECT_DIRECTORY="${HOME}/www/projectz/";
 export BIZ9_SCRIPTZ_DIRECTORY="node_modules/biz9-scriptz/scriptz/";
 #export BIZ9_SCRIPTZ_DIRECTORY="scriptz/";
 ##GLOBAL VARIABLE END ###
+#
 
 ### TANK_LOCAL_ONLY_START ###
+#
 
 #main
 alias 9_go_biz='cd ${BIZ9_HOME}';
@@ -31,6 +33,7 @@ alias 9_go_logic_js='cd ${BIZ9_HOME}biz9-logic-js/code';
 alias 9_go_utility='cd ${BIZ9_HOME}biz9-utility/code';
 alias 9_go_utility_js='cd ${BIZ9_HOME}biz9-utility-js/code';
 alias 9_go_data='cd ${BIZ9_HOME}biz9-data/code';
+alias 9_go_image='cd ${BIZ9_HOME}biz9-image/code';
 alias 9_go_service='cd ${BIZ9_HOME}biz9-service/code';
 alias 9_go_react_remote='cd ${BIZ9_HOME}biz9-react-remote/code';
 alias 9_go_cms='cd ${BIZ9_PROJECTZ}dreamgigs/cms-react/code';
@@ -64,7 +67,7 @@ alias 9_start_service='cd ${BIZ9_HOME}biz9-service/code;9_node_mongo_start';
 alias 9_edit_500="cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web;vi -c 'NERDTree'"
 alias 9_edit_service="cd ${BIZ9_HOME}biz9-service/code;vi -c 'NERDTree'";
 alias 9_edit_logic="cd ${BIZ9_HOME}biz9-logic/code;vi -c 'NERDTree'";
-alias 9_edit_notification="cd ${BIZ9_HOME}biz9-notification/code;vi';
+alias 9_edit_notification="cd ${BIZ9_HOME}biz9-notification/code;vi";
 alias 9_edit_data="cd ${BIZ9_HOME}biz9-data/code;vi -c 'NERDTree'";
 alias 9_edit_utility="cd ${BIZ9_HOME}biz9-utility/code;vi -c 'NERDTree'";
 
@@ -160,6 +163,7 @@ alias 9_test_item_list_get='bash test_run item_list_get';
 alias 9_test_item_list_delete='bash test_run item_list_delete';
 alias 9_test_get_data='bash test_run get_data';
 alias 9_test_post_data='bash test_run post_data';
+alias 9_test_post_user_data='bash test_run post_user_data';
 alias 9_test_upload_file='bash test_run upload_file';
 alias 9_test_admin_add='bash test_run admin_add';
 alias 9_test_admin_update='bash test_run admin_update';
