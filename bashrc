@@ -18,6 +18,9 @@ export BIZ9_SCRIPTZ_DIRECTORY="node_modules/biz9-scriptz/scriptz/";
 ### TANK_LOCAL_ONLY_START ###
 #
 
+#box
+alias 9_box_1_connect='ssh root@68.183.153.167';
+
 #main
 alias 9_go_biz='cd ${BIZ9_HOME}';
 
