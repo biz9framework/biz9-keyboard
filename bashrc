@@ -19,7 +19,8 @@ export BIZ9_SCRIPTZ_DIRECTORY="node_modules/biz9-scriptz/scriptz/";
 #
 
 #box
-alias 9_box_1_connect='ssh root@68.183.153.167';
+alias 9_box_1_connect='ssh root@161.35.176.216';
+alias 9_box_1_service_deploy="rsync -avzP --exclude '.git' ~/www/doqbox/biz9-framework/biz9-service/code/* root@161.35.176.216:/var/www/service";
 
 #main
 alias 9_go_biz='cd ${BIZ9_HOME}';
@@ -132,18 +133,12 @@ alias 9_mongo_start="sudo mongod --fork --config /etc/mongod.conf";
 #npm
 alias 9_npm_publish="bash ${BIZ9_SCRIPTZ_DIRECTORY}npm_publish.sh";
 alias 9_npm_cache_clear="npm cache clean --force";
-alias 9_npm_library_biz9_logic_uninstall="npm uninstall biz9-logic --force";
-alias 9_npm_library_biz9_logic_install="npm install biz9-logic --force";
 alias 9_npm_library_biz9_logic_setup="npm uninstall biz9-logic --force; npm install biz9-logic --force";
 alias 9_npm_library_biz9_scriptz_setup="npm uninstall biz9-scriptz --force; npm install biz9-scriptz --force";
-alias 9_npm_library_biz9_utility_uninstall="npm uninstall biz9-utility --force";
-alias 9_npm_library_biz9_utility_install="npm install biz9-utility --force";
 alias 9_npm_library_biz9_utility_setup="npm uninstall biz9-utility --force; npm install biz9-utility --force";
-alias 9_npm_library_biz9_data_uninstall="npm uninstall biz9-data --force";
-alias 9_npm_library_biz9_data_install="npm install biz9-data --force";
 alias 9_npm_library_biz9_data_setup="npm uninstall biz9-data --force; npm install biz9-data --force";
-alias 9_npm_library_biz9_react_remote_install="npm install biz9-react-remote --force";
-alias 9_npm_library_biz9_react_remote_uninstall="npm install biz9-react-remote --force";
+alias 9_npm_library_biz9_image_setup="npm uninstall biz9-image --force; npm install biz9-image --force";
+alias 9_npm_library_biz9_remote_setup="npm uninstall biz9-remote --force; npm install biz9-remote --force";
 
 #redis
 alias 9_redis_start="service redis-server start";
