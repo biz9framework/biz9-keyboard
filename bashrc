@@ -20,31 +20,34 @@ export BIZ9_SCRIPTZ_DIRECTORY="node_modules/biz9-scriptz/scriptz/";
 
 #box
 alias 9_box_1_connect='ssh root@161.35.176.216';
-alias 9_box_1_service_deploy="rsync -avzP --exclude '.git' ~/www/doqbox/biz9-framework/biz9-service/code/* root@161.35.176.216:/var/www/service";
+alias 9_service_deploy="rsync -avzP --exclude '.git' ~/www/doqbox/biz9-framework/biz9-service/code/* root@161.35.176.216:/var/www/service";
+alias 9_500_deploy="rsync -avzP --exclude '.git' ~/www/projectz/500/code/corp-web/build/* root@161.35.176.216:/var/www/500";
 
-#main
-alias 9_go_biz='cd ${BIZ9_HOME}';
+#projectz
+alias 9_500_start='cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web;9_react_start'
+alias 9_500_go='cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web'
+alias 9_500_edit="cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web;vi -c 'NERDTree'"
+alias 9_500_publish_deploy="cd ~/www/projectz/500/code/corp-web/;npm run build;9_500_deploy"
+alias 9_901_go='cd ${BIZ9_PROJECT_DIRECTORY}/901/code/corp-react'
 
 #biz9-framework-src
-alias 9_go_art="cd ${BIZ9_HOME}biz9-art/code";
-alias 9_go_adapter="cd ${BIZ9_HOME}biz9-adapter/code";
-alias 9_go_black="cd ${BIZ9_PROJECTZ}biz9-black/code";
-alias 9_go_help="cd ${BIZ9_HOME}biz9-help/code";
-alias 9_go_scriptz="cd ${BIZ9_HOME}biz9-scriptz/code";
-alias 9_go_logic='cd ${BIZ9_HOME}biz9-logic/code';
-alias 9_go_notification='cd ${BIZ9_HOME}biz9-notification/code';
-alias 9_go_logic_js='cd ${BIZ9_HOME}biz9-logic-js/code';
-alias 9_go_utility='cd ${BIZ9_HOME}biz9-utility/code';
-alias 9_go_utility_js='cd ${BIZ9_HOME}biz9-utility-js/code';
-alias 9_go_data='cd ${BIZ9_HOME}biz9-data/code';
-alias 9_go_image='cd ${BIZ9_HOME}biz9-image/code';
-alias 9_go_service='cd ${BIZ9_HOME}biz9-service/code';
-alias 9_go_react_remote='cd ${BIZ9_HOME}biz9-react-remote/code';
-alias 9_go_cms='cd ${BIZ9_PROJECTZ}dreamgigs/cms-react/code';
-
-#biz9-projectz-src
-alias 9_go_dg_react='cd ${BIZ9_PROJECTZ}dreamgigs/cms-react/code';
-alias 9_go_dg_node='cd ${BIZ9_PROJECTZ}dreamgigs/cms-node/code';
+alias 9_adapter_go="cd ${BIZ9_HOME}biz9-adapter/code";
+alias 9_art_go="cd ${BIZ9_HOME}biz9-art/code";
+alias 9_biz_go='cd ${BIZ9_HOME}';
+alias 9_cms_go='cd ${BIZ9_PROJECTZ}dreamgigs/cms-react/code';
+alias 9_data_go='cd ${BIZ9_HOME}biz9-data/code';
+alias 9_data_edit="cd ${BIZ9_HOME}biz9-data/code;vi -c 'NERDTree'";
+alias 9_image_go='cd ${BIZ9_HOME}biz9-image/code';
+alias 9_logic_edit="cd ${BIZ9_HOME}biz9-logic/code;vi -c 'NERDTree'";
+alias 9_logic_go='cd ${BIZ9_HOME}biz9-logic/code';
+alias 9_notification_go='cd ${BIZ9_HOME}biz9-notification/code';
+alias 9_react_remote_go='cd ${BIZ9_HOME}biz9-react-remote/code';
+alias 9_scriptz_go="cd ${BIZ9_HOME}biz9-scriptz/code";
+alias 9_service_go='cd ${BIZ9_HOME}biz9-service/code';
+alias 9_service_start='cd ${BIZ9_HOME}biz9-service/code;9_node_mongo_start';
+alias 9_service_edit="cd ${BIZ9_HOME}biz9-service/code;vi -c 'NERDTree'";
+alias 9_utility_go='cd ${BIZ9_HOME}biz9-utility/code';
+alias 9_utility_edit="cd ${BIZ9_HOME}biz9-utility/code;vi -c 'NERDTree'";
 
 #app
 alias 9_open_blogreader='newsboat';
@@ -53,28 +56,12 @@ alias 9_open_calendar='cal -A 5';
 alias 9_open_sublime='subl ';
 
 #project configs
-alias 9_go_projectz='cd ${BIZ9_PROJECT_DIRECTORY}'
-alias 9_go_keyboard_shortcutz='vi ${HOME}/www/doqbox/biz9-framework/biz9-keyboard/code/bashrc';
-
-alias 9_go_901='cd ${BIZ9_PROJECT_DIRECTORY}/901/code/corp-react'
-alias 9_go_500='cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web'
-
-alias 9_go_home='cd ~/www'
-alias 9_go_downloadz='cd ${HOME}/Downloads';
-
-alias 9_go_config_bashrc='vi ~/.bashrc'
-alias 9_go_config_vim='vi ~/.vimrc'
-
-alias 9_start_500='cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web;9_react_start'
-alias 9_start_service='cd ${BIZ9_HOME}biz9-service/code;9_node_mongo_start';
-
-alias 9_edit_500="cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web;vi -c 'NERDTree'"
-alias 9_edit_service="cd ${BIZ9_HOME}biz9-service/code;vi -c 'NERDTree'";
-alias 9_edit_logic="cd ${BIZ9_HOME}biz9-logic/code;vi -c 'NERDTree'";
-alias 9_edit_notification="cd ${BIZ9_HOME}biz9-notification/code;vi";
-alias 9_edit_data="cd ${BIZ9_HOME}biz9-data/code;vi -c 'NERDTree'";
-alias 9_edit_utility="cd ${BIZ9_HOME}biz9-utility/code;vi -c 'NERDTree'";
-
+alias 9_projectz_go='cd ${BIZ9_PROJECT_DIRECTORY}'
+alias 9_home_go='cd ~/www'
+alias 9_downloadz_go='cd ${HOME}/Downloads';
+alias 9_config_bashrc_edit='vi ~/.bashrc'
+alias 9_config_vim_edit='vi ~/.vimrc'
+alias 9_keyboard_edit='vi ${HOME}/www/doqbox/biz9-framework/biz9-keyboard/code/bashrc';
 ###TANK_LOCAL_ONLY_END ###
 
 ## BiZ9 Framework ScriptZ Alias Start ###
