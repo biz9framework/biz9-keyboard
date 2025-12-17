@@ -20,14 +20,14 @@ export BIZ9_SCRIPTZ_DIRECTORY="node_modules/biz9-scriptz/scriptz/";
 
 #box
 alias 9_box_1_connect='ssh root@161.35.176.216';
-alias 9_service_deploy="rsync -avzP --exclude '.git' ~/www/doqbox/biz9-framework/biz9-service/code/* root@161.35.176.216:/var/www/service";
-alias 9_500_deploy="rsync -avzP --exclude '.git' ~/www/projectz/500/code/corp-web/build/* root@161.35.176.216:/var/www/500";
+alias 9_service_deploy_box_1="rsync -avzP --exclude '.git' ~/www/doqbox/biz9-framework/biz9-service/code/* root@161.35.176.216:/var/www/service";
+alias 9_500_deploy_box_1="rsync -avzP --exclude '.git' ~/www/projectz/500/code/corp-web/build/* root@161.35.176.216:/var/www/500";
 
 #projectz
 alias 9_500_start='cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web;9_react_start'
 alias 9_500_go='cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web'
 alias 9_500_edit="cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web;vi -c 'NERDTree'"
-alias 9_500_publish_deploy="cd ~/www/projectz/500/code/corp-web/;npm run build;9_500_deploy"
+alias 9_500_publish_deploy_box_1="cd ~/www/projectz/500/code/corp-web/;npm run build;9_500_deploy_box_1"
 alias 9_901_go='cd ${BIZ9_PROJECT_DIRECTORY}/901/code/corp-react'
 
 #biz9-framework-src
@@ -37,6 +37,8 @@ alias 9_biz_go='cd ${BIZ9_HOME}';
 alias 9_cms_go='cd ${BIZ9_PROJECTZ}dreamgigs/cms-react/code';
 alias 9_data_go='cd ${BIZ9_HOME}biz9-data/code';
 alias 9_data_edit="cd ${BIZ9_HOME}biz9-data/code;vi -c 'NERDTree'";
+alias 9_help_go='cd ${BIZ9_HOME}biz9-help/code';
+alias 9_help_edit="cd ${BIZ9_HOME}biz9-help/code;vi -c 'NERDTree'";
 alias 9_image_go='cd ${BIZ9_HOME}biz9-image/code';
 alias 9_logic_edit="cd ${BIZ9_HOME}biz9-logic/code;vi -c 'NERDTree'";
 alias 9_logic_go='cd ${BIZ9_HOME}biz9-logic/code';
@@ -137,7 +139,8 @@ alias 9_os_info="lsb_release -a";
 ## BiZ9 Framework ScriptZ Alias End ###
 
 ### ALIAS TEST START ###
-alias 9_test_ping="bash test_run ping";
+alias 9_test_ping_get="bash test_run ping_get";
+alias 9_test_ping_post="bash test_run ping_post";
 alias 9_test_uptime="bash test_run uptime";
 alias 9_test_connect='bash test_run connect';
 alias 9_test_item_update='bash test_run item_update';
@@ -150,8 +153,6 @@ alias 9_test_get_data='bash test_run get_data';
 alias 9_test_post_data='bash test_run post_data';
 alias 9_test_post_user_data='bash test_run post_user_data';
 alias 9_test_upload_file='bash test_run upload_file';
-alias 9_test_admin_add='bash test_run admin_add';
-alias 9_test_admin_update='bash test_run admin_update';
 ### ALIAS TEST END ###
 #
 ### OTHER START ###
