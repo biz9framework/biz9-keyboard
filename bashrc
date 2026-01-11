@@ -127,7 +127,7 @@ alias 9_npm_library_biz9_scriptz_setup="npm uninstall biz9-scriptz --force; npm 
 alias 9_npm_library_biz9_utility_setup="npm uninstall biz9-utility --force; npm install biz9-utility --force";
 alias 9_npm_library_biz9_data_setup="npm uninstall biz9-data --force; npm install biz9-data --force";
 alias 9_npm_library_biz9_image_setup="npm uninstall biz9-image --force; npm install biz9-image --force";
-alias 9_npm_library_biz9_remote_setup="npm uninstall biz9-remote --force; npm install biz9-remote --force";
+alias 9_npm_library_biz9_react_remote_setup="npm uninstall biz9-react-remote --force; npm install biz9-react-remote --force";
 
 #redis
 alias 9_redis_start="service redis-server start";
@@ -143,16 +143,9 @@ alias 9_test_ping_get="bash test_run ping_get";
 alias 9_test_ping_post="bash test_run ping_post";
 alias 9_test_uptime="bash test_run uptime";
 alias 9_test_connect='bash test_run connect';
-alias 9_test_item_update='bash test_run item_update';
-alias 9_test_item_get='bash test_run item_get';
-alias 9_test_item_delete='bash test_run item_delete';
-alias 9_test_item_list_update='bash test_run item_list_update';
-alias 9_test_item_list_get='bash test_run item_list_get';
-alias 9_test_item_list_delete='bash test_run item_list_delete';
-alias 9_test_get_data='bash test_run get_data';
-alias 9_test_post_data='bash test_run post_data';
-alias 9_test_post_user_data='bash test_run post_user_data';
-alias 9_test_upload_file='bash test_run upload_file';
+alias 9_test_post='bash test_run post';
+alias 9_test_get='bash test_run get';
+alias 9_test_post_user='bash test_run post_user';
 ### ALIAS TEST END ###
 #
 ### OTHER START ###
