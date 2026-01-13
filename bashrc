@@ -66,7 +66,9 @@ alias 9_downloadz_go='cd ${HOME}/Downloads';
 alias 9_config_bashrc_edit='vi ~/.bashrc'
 alias 9_config_vim_edit='vi ~/.vimrc'
 alias 9_keyboard_edit='vi ${HOME}/www/doqbox/biz9-framework/biz9-keyboard/code/bashrc';
-alias 9_keyboard_go='cd ${HOME}/www/doqbox/biz9-framework/biz9-keyboard/code';
+alias 9_keyboard='cd ${HOME}/www/doqbox/biz9-framework/biz9-keyboard/code';
+alias 9_keyboard_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-keyboard/code;9_git_commit;9_git_push';
+
 ###TANK_LOCAL_ONLY_END ###
 
 ## BiZ9 Framework ScriptZ Alias Start ###
@@ -148,6 +150,7 @@ alias 9_test_uptime="bash test_run uptime";
 alias 9_test_connect='bash test_run connect';
 alias 9_test_post='bash test_run post';
 alias 9_test_get='bash test_run get';
+alias 9_test_post_app='bash test_run post_app';
 alias 9_test_post_user='bash test_run post_user';
 ### ALIAS TEST END ###
 #
