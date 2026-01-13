@@ -31,25 +31,27 @@ alias 9_500_publish_deploy_box_1="cd ~/www/projectz/500/code/corp-web/;npm run b
 alias 9_901_go='cd ${BIZ9_PROJECT_DIRECTORY}/901/code/corp-react'
 
 #biz9-framework-src
-alias 9_adapter_go="cd ${BIZ9_HOME}biz9-adapter/code";
 alias 9_art_go="cd ${BIZ9_HOME}biz9-art/code";
 alias 9_biz_go='cd ${BIZ9_HOME}';
 alias 9_cms_go='cd ${BIZ9_PROJECTZ}dreamgigs/cms-react/code';
 alias 9_data_go='cd ${BIZ9_HOME}biz9-data/code';
-alias 9_data_edit="cd ${BIZ9_HOME}biz9-data/code;vi -c 'NERDTree'";
+alias 9_data_edit="cd ${BIZ9_HOME}biz9-data/code;vi 'index.js'";
+alias 9_data_test="cd ${BIZ9_HOME}biz9-data/code;vi 'test.js'";
 alias 9_help_go='cd ${BIZ9_HOME}biz9-help/code';
 alias 9_help_edit="cd ${BIZ9_HOME}biz9-help/code;vi -c 'NERDTree'";
 alias 9_image_go='cd ${BIZ9_HOME}biz9-image/code';
-alias 9_logic_edit="cd ${BIZ9_HOME}biz9-logic/code;vi -c 'NERDTree'";
+alias 9_logic_edit="cd ${BIZ9_HOME}biz9-logic/code;vi 'index.js'";
+alias 9_logic_test="cd ${BIZ9_HOME}biz9-logic/code;vi 'test.js'";
 alias 9_logic_go='cd ${BIZ9_HOME}biz9-logic/code';
 alias 9_notification_go='cd ${BIZ9_HOME}biz9-notification/code';
 alias 9_react_remote_go='cd ${BIZ9_HOME}biz9-react-remote/code';
 alias 9_scriptz_go="cd ${BIZ9_HOME}biz9-scriptz/code";
-alias 9_service_go='cd ${BIZ9_HOME}biz9-service/code';
 alias 9_service_start='cd ${BIZ9_HOME}biz9-service/code;9_node_mongo_start';
 alias 9_service_edit="cd ${BIZ9_HOME}biz9-service/code;vi -c 'NERDTree'";
+alias 9_service_test="cd ${BIZ9_HOME}biz9-service/code;vi 'test.js'";
 alias 9_utility_go='cd ${BIZ9_HOME}biz9-utility/code';
-alias 9_utility_edit="cd ${BIZ9_HOME}biz9-utility/code;vi -c 'NERDTree'";
+alias 9_utility_edit="cd ${BIZ9_HOME}biz9-utility/code;vi 'index.js'";
+alias 9_utility_test="cd ${BIZ9_HOME}biz9-utility/code;vi 'test.js'";
 
 #app
 alias 9_open_blogreader='newsboat';
@@ -64,6 +66,7 @@ alias 9_downloadz_go='cd ${HOME}/Downloads';
 alias 9_config_bashrc_edit='vi ~/.bashrc'
 alias 9_config_vim_edit='vi ~/.vimrc'
 alias 9_keyboard_edit='vi ${HOME}/www/doqbox/biz9-framework/biz9-keyboard/code/bashrc';
+alias 9_keyboard_go='cd ${HOME}/www/doqbox/biz9-framework/biz9-keyboard/code';
 ###TANK_LOCAL_ONLY_END ###
 
 ## BiZ9 Framework ScriptZ Alias Start ###
@@ -135,7 +138,7 @@ alias 9_redis_flush="redis-cli FLUSHALL";
 
 #os
 alias 9_os_info="lsb_release -a";
-
+alias 9_monitor_bright='brightnessctl set 100%';
 ## BiZ9 Framework ScriptZ Alias End ###
 
 ### ALIAS TEST START ###
