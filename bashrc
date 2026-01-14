@@ -25,7 +25,7 @@ alias 9_500_deploy_box_1="rsync -avzP --exclude '.git' ~/www/projectz/500/code/c
 
 #projectz
 alias 9_500_start='cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web;9_react_start'
-alias 9_500_go='cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web'
+alias 9_500='cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web'
 alias 9_500_edit="cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web;vi -c 'NERDTree'"
 alias 9_500_publish_deploy_box_1="cd ~/www/projectz/500/code/corp-web/;npm run build;9_500_deploy_box_1"
 alias 9_901_go='cd ${BIZ9_PROJECT_DIRECTORY}/901/code/corp-react'
