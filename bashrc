@@ -146,7 +146,7 @@ alias 9_redis_flush="redis-cli FLUSHALL";
 #os
 alias 9_os_info="lsb_release -a";
 alias 9_monitor_bright='brightnessctl set 100%';
-alias 9_system_off='sudo poweroff';
+alias 9_power_off='sudo poweroff';
 ## BiZ9 Framework ScriptZ Alias End ###
 
 ### ALIAS TEST START ###
