@@ -13,51 +13,48 @@ export BIZ9_PROJECT_DIRECTORY="${HOME}/www/projectz/";
 export BIZ9_SCRIPTZ_DIRECTORY="node_modules/biz9-scriptz/scriptz/";
 #export BIZ9_SCRIPTZ_DIRECTORY="scriptz/";
 ##GLOBAL VARIABLE END ###
-#
-
 ### TANK_LOCAL_ONLY_START ###
 #
-
 #box
 alias 9_box_1_connect='ssh root@161.35.176.216';
-alias 9_service_deploy_box_1="rsync -avzP --exclude '.git' ~/www/doqbox/biz9-framework/biz9-service/code/* root@161.35.176.216:/var/www/service";
-alias 9_500_deploy_box_1="rsync -avzP --exclude '.git' ~/www/projectz/500/code/corp-web/build/* root@161.35.176.216:/var/www/500";
+alias 9_service_deploy_box_1="rsync -avzP --exclude '.git' ~/www/doqbox/biz9-framework/biz9-service/source/* root@161.35.176.216:/var/www/service";
+alias 9_500_deploy_box_1="rsync -avzP --exclude '.git' ~/www/projectz/500/source/corp-web/build/* root@161.35.176.216:/var/www/500";
 
 #projectz
-alias 9_500_start='cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web;9_react_start'
-alias 9_500='cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web'
-alias 9_500_git_deploy='cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web;9_git_commit;9_git_push;'
-alias 9_500_edit="cd ${BIZ9_PROJECT_DIRECTORY}/500/code/corp-web;vi -c 'NERDTree'"
-alias 9_500_publish_deploy_box_1="cd ~/www/projectz/500/code/corp-web/;npm run build;9_500_deploy_box_1"
-alias 9_901_go='cd ${BIZ9_PROJECT_DIRECTORY}/901/code/corp-react'
+alias 9_500_start='cd ${BIZ9_PROJECT_DIRECTORY}/500/source/corp-web;9_react_start'
+alias 9_500='cd ${BIZ9_PROJECT_DIRECTORY}/500/source/corp-web'
+alias 9_500_git_deploy='cd ${BIZ9_PROJECT_DIRECTORY}/500/source/corp-web;9_git_commit;9_git_push;'
+alias 9_500_edit="cd ${BIZ9_PROJECT_DIRECTORY}/500/source/corp-web;vi -c 'NERDTree'"
+alias 9_500_publish_deploy_box_1="cd ~/www/projectz/500/source/corp-web/;npm run build;9_500_deploy_box_1"
+alias 9_901_go='cd ${BIZ9_PROJECT_DIRECTORY}/901/source/corp-react'
 
 #biz9-framework-src
-alias 9_art_go="cd ${BIZ9_HOME}biz9-art/code";
+alias 9_art_go="cd ${BIZ9_HOME}biz9-art/source";
 alias 9_biz_go='cd ${BIZ9_HOME}';
-alias 9_cms_go='cd ${BIZ9_PROJECTZ}dreamgigs/cms-react/code';
-alias 9_data='cd ${BIZ9_HOME}biz9-data/code';
-alias 9_data_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-data/code;9_git_commit;9_git_push';
-alias 9_data_edit="cd ${BIZ9_HOME}biz9-data/code;vi 'index.js'";
-alias 9_data_test="cd ${BIZ9_HOME}biz9-data/code;vi 'test.js'";
-alias 9_help_go='cd ${BIZ9_HOME}biz9-help/code';
-alias 9_help_edit="cd ${BIZ9_HOME}biz9-help/code;vi -c 'NERDTree'";
-alias 9_image_go='cd ${BIZ9_HOME}biz9-image/code';
-alias 9_logic='cd ${BIZ9_HOME}biz9-logic/code';
-alias 9_logic_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-logic/code;9_git_commit;9_git_push';
-alias 9_logic_edit="cd ${BIZ9_HOME}biz9-logic/code;vi 'index.js'";
-alias 9_logic_test="cd ${BIZ9_HOME}biz9-logic/code;vi 'test.js'";
-alias 9_notification_go='cd ${BIZ9_HOME}biz9-notification/code';
-alias 9_react_remote_go='cd ${BIZ9_HOME}biz9-react-remote/code';
-alias 9_scriptz_go="cd ${BIZ9_HOME}biz9-scriptz/code";
-alias 9_service='cd ${HOME}/www/doqbox/biz9-framework/biz9-service/code';
-alias 9_service_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-service/code;9_git_commit;9_git_push';
-alias 9_service_start='cd ${BIZ9_HOME}biz9-service/code;9_node_mongo_start';
-alias 9_service_edit="cd ${BIZ9_HOME}biz9-service/code;vi -c 'NERDTree'";
-alias 9_service_test="cd ${BIZ9_HOME}biz9-service/code;vi 'test.js'";
-alias 9_utility='cd ${BIZ9_HOME}biz9-utility/code';
-alias 9_utility_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-utility/code;9_git_commit;9_git_push';
-alias 9_utility_edit="cd ${BIZ9_HOME}biz9-utility/code;vi 'index.js'";
-alias 9_utility_test="cd ${BIZ9_HOME}biz9-utility/code;vi 'test.js'";
+alias 9_cms_go='cd ${BIZ9_PROJECTZ}dreamgigs/cms-react/source';
+alias 9_data='cd ${BIZ9_HOME}biz9-data/source';
+alias 9_data_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-data/source;9_git_commit;9_git_push';
+alias 9_data_edit="cd ${BIZ9_HOME}biz9-data/source;vi 'index.js'";
+alias 9_data_test="cd ${BIZ9_HOME}biz9-data/source;vi 'test.js'";
+alias 9_help_go='cd ${BIZ9_HOME}biz9-help/source';
+alias 9_help_edit="cd ${BIZ9_HOME}biz9-help/source;vi -c 'NERDTree'";
+alias 9_image_go='cd ${BIZ9_HOME}biz9-image/source';
+alias 9_logic='cd ${BIZ9_HOME}biz9-logic/source';
+alias 9_logic_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-logic/source;9_git_commit;9_git_push';
+alias 9_logic_edit="cd ${BIZ9_HOME}biz9-logic/source;vi 'index.js'";
+alias 9_logic_test="cd ${BIZ9_HOME}biz9-logic/source;vi 'test.js'";
+alias 9_notification_go='cd ${BIZ9_HOME}biz9-notification/source';
+alias 9_react_remote_go='cd ${BIZ9_HOME}biz9-react-remote/source';
+alias 9_scriptz_go="cd ${BIZ9_HOME}biz9-scriptz/source";
+alias 9_service='cd ${HOME}/www/doqbox/biz9-framework/biz9-service/source';
+alias 9_service_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-service/source;9_git_commit;9_git_push';
+alias 9_service_start='cd ${BIZ9_HOME}biz9-service/source;9_node_mongo_start';
+alias 9_service_edit="cd ${BIZ9_HOME}biz9-service/source;vi -c 'NERDTree'";
+alias 9_service_test="cd ${BIZ9_HOME}biz9-service/source;vi 'test.js'";
+alias 9_utility='cd ${BIZ9_HOME}biz9-utility/source';
+alias 9_utility_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-utility/source;9_git_commit;9_git_push';
+alias 9_utility_edit="cd ${BIZ9_HOME}biz9-utility/source;vi 'index.js'";
+alias 9_utility_test="cd ${BIZ9_HOME}biz9-utility/source;vi 'test.js'";
 
 #app
 alias 9_open_blogreader='newsboat';
@@ -71,9 +68,9 @@ alias 9_home_go='cd ~/www'
 alias 9_downloadz_go='cd ${HOME}/Downloads';
 alias 9_config_bashrc_edit='vi ~/.bashrc'
 alias 9_config_vim_edit='vi ~/.vimrc'
-alias 9_keyboard_edit='vi ${HOME}/www/doqbox/biz9-framework/biz9-keyboard/code/bashrc';
-alias 9_keyboard='cd ${HOME}/www/doqbox/biz9-framework/biz9-keyboard/code';
-alias 9_keyboard_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-keyboard/code;9_git_commit;9_git_push';
+alias 9_keyboard_edit='vi ${HOME}/www/doqbox/biz9-framework/biz9-keyboard/source/bashrc';
+alias 9_keyboard='cd ${HOME}/www/doqbox/biz9-framework/biz9-keyboard/source';
+alias 9_keyboard_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-keyboard/source;9_git_commit;9_git_push';
 ###TANK_LOCAL_ONLY_END ###
 
 ## BiZ9 Framework ScriptZ Alias Start ###
