@@ -29,20 +29,35 @@ alias 9_500_publish_deploy_box_1="cd ~/www/projectz/500/source/corp-web/;npm run
 alias 9_901='cd ${BIZ9_PROJECT_DIRECTORY}/901/source/corp-react'
 
 #biz9-framework-src
+alias 9_data='cd ${BIZ9_HOME}biz9-data/source';
+alias 9_data_edit="cd ${BIZ9_HOME}biz9-data/source;vi 'index.js'";
+alias 9_data_test="cd ${BIZ9_HOME}biz9-data/source;vi 'test.js'";
+
+alias 9_data_logic='cd ${BIZ9_HOME}biz9-data-logic/source';
+alias 9_data_logic_edit="cd ${BIZ9_HOME}biz9-data-logic/source;vi 'index.js'";
+alias 9_data_logic_test="cd ${BIZ9_HOME}biz9-data-logic/source;vi 'test.js'";
+
+alias 9_user='cd ${BIZ9_HOME}biz9-user/source';
+alias 9_user_edit="cd ${BIZ9_HOME}biz9-user/source;vi 'index.js'";
+alias 9_user_test="cd ${BIZ9_HOME}biz9-user/source;vi 'test.js'";
+
+alias 9_user_data='cd ${BIZ9_HOME}biz9-user-data/source';
+alias 9_user_data_edit="cd ${BIZ9_HOME}biz9-user-data/source;vi 'index.js'";
+alias 9_user_data_test="cd ${BIZ9_HOME}biz9-user-data/source;vi 'test.js'";
+
+
+
+
+
+
+#biz9-framework-src-old
 alias 9_art="cd ${BIZ9_HOME}biz9-art/source";
 alias 9_biz='cd ${BIZ9_HOME}';
 alias 9_cms='cd ${BIZ9_PROJECTZ}dreamgigs/cms-react/source';
-alias 9_data='cd ${BIZ9_HOME}biz9-data/source';
-alias 9_data_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-data/source;9_git_commit;9_git_push';
-alias 9_data_edit="cd ${BIZ9_HOME}biz9-data/source;vi 'index.js'";
-alias 9_data_test="cd ${BIZ9_HOME}biz9-data/source;vi 'test.js'";
 alias 9_help='cd ${BIZ9_HOME}biz9-help/source';
 alias 9_help_edit="cd ${BIZ9_HOME}biz9-help/source;vi -c 'NERDTree'";
 alias 9_image='cd ${BIZ9_HOME}biz9-image/source';
-alias 9_logic='cd ${BIZ9_HOME}biz9-logic/source';
-alias 9_logic_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-logic/source;9_git_commit;9_git_push';
-alias 9_logic_edit="cd ${BIZ9_HOME}biz9-logic/source;vi 'index.js'";
-alias 9_logic_test="cd ${BIZ9_HOME}biz9-logic/source;vi 'test.js'";
+
 alias 9_notification='cd ${BIZ9_HOME}biz9-notification/source';
 alias 9_react_remote='cd ${BIZ9_HOME}biz9-react-remote/source';
 alias 9_scriptz="cd ${BIZ9_HOME}biz9-scriptz/source";
