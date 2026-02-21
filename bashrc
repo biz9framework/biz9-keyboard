@@ -37,6 +37,14 @@ alias 9_data_logic='cd ${BIZ9_HOME}biz9-data-logic/source';
 alias 9_data_logic_edit="cd ${BIZ9_HOME}biz9-data-logic/source;vi 'index.js'";
 alias 9_data_logic_test="cd ${BIZ9_HOME}biz9-data-logic/source;vi 'test.js'";
 
+alias 9_store='cd ${BIZ9_HOME}biz9-store/source';
+alias 9_store_edit="cd ${BIZ9_HOME}biz9-store/source;vi 'index.js'";
+alias 9_store_test="cd ${BIZ9_HOME}biz9-store/source;vi 'test.js'";
+
+alias 9_store_data='cd ${BIZ9_HOME}biz9-store-data/source';
+alias 9_store_data_edit="cd ${BIZ9_HOME}biz9-store-data/source;vi 'index.js'";
+alias 9_store_data_test="cd ${BIZ9_HOME}biz9-store-data/source;vi 'test.js'";
+
 alias 9_user='cd ${BIZ9_HOME}biz9-user/source';
 alias 9_user_edit="cd ${BIZ9_HOME}biz9-user/source;vi 'index.js'";
 alias 9_user_test="cd ${BIZ9_HOME}biz9-user/source;vi 'test.js'";
