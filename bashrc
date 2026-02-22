@@ -29,41 +29,51 @@ alias 9_500_publish_deploy_box_1="cd ~/www/projectz/500/source/corp-web/;npm run
 alias 9_901='cd ${BIZ9_PROJECT_DIRECTORY}/901/source/corp-react'
 
 #biz9-framework-src
+alias 9_art="cd ${BIZ9_HOME}biz9-art/source";
 alias 9_data='cd ${BIZ9_HOME}biz9-data/source';
 alias 9_data_edit="cd ${BIZ9_HOME}biz9-data/source;vi 'index.js'";
 alias 9_data_test="cd ${BIZ9_HOME}biz9-data/source;vi 'test.js'";
-
 alias 9_data_logic='cd ${BIZ9_HOME}biz9-data-logic/source';
 alias 9_data_logic_edit="cd ${BIZ9_HOME}biz9-data-logic/source;vi 'index.js'";
 alias 9_data_logic_test="cd ${BIZ9_HOME}biz9-data-logic/source;vi 'test.js'";
-
 alias 9_store='cd ${BIZ9_HOME}biz9-store/source';
 alias 9_store_edit="cd ${BIZ9_HOME}biz9-store/source;vi 'index.js'";
 alias 9_store_test="cd ${BIZ9_HOME}biz9-store/source;vi 'test.js'";
-
 alias 9_store_data='cd ${BIZ9_HOME}biz9-store-data/source';
 alias 9_store_data_edit="cd ${BIZ9_HOME}biz9-store-data/source;vi 'index.js'";
 alias 9_store_data_test="cd ${BIZ9_HOME}biz9-store-data/source;vi 'test.js'";
-
 alias 9_user='cd ${BIZ9_HOME}biz9-user/source';
 alias 9_user_edit="cd ${BIZ9_HOME}biz9-user/source;vi 'index.js'";
 alias 9_user_test="cd ${BIZ9_HOME}biz9-user/source;vi 'test.js'";
-
 alias 9_user_data='cd ${BIZ9_HOME}biz9-user-data/source';
 alias 9_user_data_edit="cd ${BIZ9_HOME}biz9-user-data/source;vi 'index.js'";
 alias 9_user_data_test="cd ${BIZ9_HOME}biz9-user-data/source;vi 'test.js'";
+alias 9_review='cd ${BIZ9_HOME}biz9-review/source';
+alias 9_review_edit="cd ${BIZ9_HOME}biz9-review/source;vi 'index.js'";
+alias 9_review_test="cd ${BIZ9_HOME}biz9-review/source;vi 'test.js'";
+alias 9_review_data='cd ${BIZ9_HOME}biz9-user-review/source';
+alias 9_review_data_edit="cd ${BIZ9_HOME}biz9-review-data/source;vi 'index.js'";
+alias 9_review_data_test="cd ${BIZ9_HOME}biz9-review-data/source;vi 'test.js'";
+alias 9_favorite='cd ${BIZ9_HOME}biz9-favorite/source';
+alias 9_favorite_edit="cd ${BIZ9_HOME}biz9-favorite/source;vi 'index.js'";
+alias 9_favorite_test="cd ${BIZ9_HOME}biz9-favorite/source;vi 'test.js'";
+alias 9_favorite_data='cd ${BIZ9_HOME}biz9-favorite-data/source';
+alias 9_favorite_data_edit="cd ${BIZ9_HOME}biz9-favorite-data/source;vi 'index.js'";
+alias 9_favorite_data_test="cd ${BIZ9_HOME}biz9-favorite-data/source;vi 'test.js'";
+alias 9_utility='cd ${BIZ9_HOME}biz9-utility/source';
+alias 9_utility_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-utility/source;9_git_commit;9_git_push';
+alias 9_utility_edit="cd ${BIZ9_HOME}biz9-utility/source;vi 'index.js'";
+alias 9_utility_test="cd ${BIZ9_HOME}biz9-utility/source;vi 'test.js'";
 
 
-
-
+#biz9-framework-other
+alias 9_help='cd ${BIZ9_HOME}biz9-help/source';
+alias 9_help_edit="cd ${BIZ9_HOME}biz9-help/source;vi -c 'NERDTree'";
 
 
 #biz9-framework-src-old
-alias 9_art="cd ${BIZ9_HOME}biz9-art/source";
 alias 9_biz='cd ${BIZ9_HOME}';
 alias 9_cms='cd ${BIZ9_PROJECTZ}dreamgigs/cms-react/source';
-alias 9_help='cd ${BIZ9_HOME}biz9-help/source';
-alias 9_help_edit="cd ${BIZ9_HOME}biz9-help/source;vi -c 'NERDTree'";
 alias 9_image='cd ${BIZ9_HOME}biz9-image/source';
 
 alias 9_notification='cd ${BIZ9_HOME}biz9-notification/source';
@@ -74,19 +84,10 @@ alias 9_service_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-service/so
 alias 9_service_start='cd ${BIZ9_HOME}biz9-service/source;9_node_mongo_start';
 alias 9_service_edit="cd ${BIZ9_HOME}biz9-service/source;vi -c 'NERDTree'";
 alias 9_service_test="cd ${BIZ9_HOME}biz9-service/source;vi 'test.js'";
-alias 9_store='cd ${HOME}/www/doqbox/biz9-framework/biz9-store/source';
-alias 9_store_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-store/source;9_git_commit;9_git_push';
-alias 9_store_edit="cd ${BIZ9_HOME}biz9-store/source;vi -c 'NERDTree'";
-alias 9_store_test="cd ${BIZ9_HOME}biz9-store/source;vi 'test.js'";
 alias 9_user='cd ${BIZ9_HOME}biz9-user/source';
 alias 9_user_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-user/source;9_git_commit;9_git_push';
 alias 9_user_edit="cd ${BIZ9_HOME}biz9-user/source;vi 'index.js'";
 alias 9_user_test="cd ${BIZ9_HOME}biz9-user/source;vi 'test.js'";
-alias 9_utility='cd ${BIZ9_HOME}biz9-utility/source';
-alias 9_utility_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-utility/source;9_git_commit;9_git_push';
-alias 9_utility_edit="cd ${BIZ9_HOME}biz9-utility/source;vi 'index.js'";
-alias 9_utility_test="cd ${BIZ9_HOME}biz9-utility/source;vi 'test.js'";
-
 #app
 alias 9_open_blogreader='newsboat';
 alias 9_open_calc='gnome-calculator &';
