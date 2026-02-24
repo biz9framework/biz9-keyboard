@@ -76,9 +76,10 @@ alias 9_utility_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-utility/so
 alias 9_utility_edit="cd ${BIZ9_HOME}biz9-utility/source;vi 'index.js'";
 alias 9_utility_test="cd ${BIZ9_HOME}biz9-utility/source;vi 'test.js'";
 #
-alias 9_website='cd ${BIZ9_HOME}biz9-website/source';
-alias 9_website_edit="cd ${BIZ9_HOME}biz9-website/source;vi 'index.js'";
-alias 9_website_test="cd ${BIZ9_HOME}biz9-website/source;vi 'test.js'";
+alias 9_service_start='cd ${BIZ9_HOME}biz9-project-service/source;9_node_mongo_start';
+alias 9_project_service='cd ${BIZ9_HOME}biz9-project-service/source';
+alias 9_project_service_edit="cd ${BIZ9_HOME}biz9-project-service/source;vi 'index.js'";
+alias 9_project_service_test="cd ${BIZ9_HOME}biz9-project-service/source;vi 'test.js'";
 
 #biz9-framework-other
 alias 9_help='cd ${BIZ9_HOME}biz9-help/source';
@@ -95,9 +96,6 @@ alias 9_react_remote='cd ${BIZ9_HOME}biz9-react-remote/source';
 alias 9_scriptz="cd ${BIZ9_HOME}biz9-scriptz/source";
 alias 9_service='cd ${HOME}/www/doqbox/biz9-framework/biz9-service/source';
 alias 9_service_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-service/source;9_git_commit;9_git_push';
-alias 9_service_start='cd ${BIZ9_HOME}biz9-service/source;9_node_mongo_start';
-alias 9_service_edit="cd ${BIZ9_HOME}biz9-service/source;vi -c 'NERDTree'";
-alias 9_service_test="cd ${BIZ9_HOME}biz9-service/source;vi 'test.js'";
 alias 9_user='cd ${BIZ9_HOME}biz9-user/source';
 alias 9_user_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-user/source;9_git_commit;9_git_push';
 alias 9_user_edit="cd ${BIZ9_HOME}biz9-user/source;vi 'index.js'";
