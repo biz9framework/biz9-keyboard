@@ -81,6 +81,10 @@ alias 9_project_service='cd ${BIZ9_HOME}biz9-project-service/source';
 alias 9_project_service_edit="cd ${BIZ9_HOME}biz9-project-service/source;vi 'index.js'";
 alias 9_project_service_test="cd ${BIZ9_HOME}biz9-project-service/source;vi 'test.js'";
 
+alias 9_website='cd ${BIZ9_HOME}biz9-website/source';
+alias 9_website_edit="cd ${BIZ9_HOME}biz9-website/source;vi 'index.js'";
+alias 9_website_test="cd ${BIZ9_HOME}biz9-website/source;vi 'test.js'";
+#
 #biz9-framework-other
 alias 9_help='cd ${BIZ9_HOME}biz9-help/source';
 alias 9_help_edit="cd ${BIZ9_HOME}biz9-help/source;vi -c 'NERDTree'";
@@ -101,10 +105,10 @@ alias 9_user_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-user/source;9
 alias 9_user_edit="cd ${BIZ9_HOME}biz9-user/source;vi 'index.js'";
 alias 9_user_test="cd ${BIZ9_HOME}biz9-user/source;vi 'test.js'";
 #app
-alias 9_open_blogreader='newsboat';
-alias 9_open_calc='gnome-calculator &';
-alias 9_open_calendar='cal -A 5';
-alias 9_open_sublime='subl ';
+alias 9_blogreader='newsboat';
+alias 9_calc='gnome-calculator &';
+alias 9_calendar='cal -A 5';
+alias 9_sublime='subl ';
 
 #project configs
 alias 9_projectz='cd ${BIZ9_PROJECT_DIRECTORY}'
@@ -156,6 +160,7 @@ alias 9_git_deploy="9_git_commit;9_git_push";
 alias 9_git_npm_publish="9_git_commit;9_git_push;9_npm_publish";
 alias 9_git_reset_init="bash ${BIZ9_SCRIPTZ_DIRECTORY}git_reset_init.sh";
 alias 9_git_main_branch_merge_checkout="bash ${BIZ9_SCRIPTZ_DIRECTORY}git_main_branch_merge_checkout.sh";
+alias 9_git_info="git status";
 
 #mobile
 alias 9_mobile_android_emulator_start='genymotion';
