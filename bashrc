@@ -21,7 +21,7 @@ alias 9_service_deploy_box_1="rsync -avzP --exclude '.git' ~/www/doqbox/biz9-fra
 alias 9_500_deploy_box_1="rsync -avzP --exclude '.git' ~/www/projectz/500/source/corp-web/build/* root@161.35.176.216:/var/www/500";
 
 #projectz
-alias 9_500_start='cd ${BIZ9_PROJECT_DIRECTORY}/500/source/corp-web;9_react_start'
+alias 9_500_start="export BIZ9_SCRIPTZ_DIRECTORY='node_modules/biz9-react-scriptz/scriptz/';  cd ${BIZ9_PROJECT_DIRECTORY}/500/source/corp-web;9_react_start"
 alias 9_500='cd ${BIZ9_PROJECT_DIRECTORY}/500/source/corp-web'
 alias 9_500_git_deploy='cd ${BIZ9_PROJECT_DIRECTORY}/500/source/corp-web;9_git_commit;9_git_push;'
 alias 9_500_edit="cd ${BIZ9_PROJECT_DIRECTORY}/500/source/corp-web;vi -c 'NERDTree'"
