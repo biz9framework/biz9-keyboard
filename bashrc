@@ -21,7 +21,7 @@ alias 9_service_deploy_box_1="rsync -avzP --exclude '.git' ~/www/doqbox/biz9-fra
 alias 9_500_deploy_box_1="rsync -avzP --exclude '.git' ~/www/projectz/500/source/corp-web/build/* root@161.35.176.216:/var/www/500";
 
 #projectz
-alias 9_500_start="export BIZ9_SCRIPTZ_DIRECTORY='node_modules/biz9-react-scriptz/scriptz/';  cd ${BIZ9_PROJECT_DIRECTORY}/500/source/corp-web;9_react_start"
+alias 9_500_start="cd ${BIZ9_PROJECT_DIRECTORY}/500/source/corp-web;9_react_start"
 alias 9_500='cd ${BIZ9_PROJECT_DIRECTORY}/500/source/corp-web'
 alias 9_500_git_deploy='cd ${BIZ9_PROJECT_DIRECTORY}/500/source/corp-web;9_git_commit;9_git_push;'
 alias 9_500_edit="cd ${BIZ9_PROJECT_DIRECTORY}/500/source/corp-web;vi -c 'NERDTree'"
@@ -76,7 +76,7 @@ alias 9_utility_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-utility/so
 alias 9_utility_edit="cd ${BIZ9_HOME}biz9-utility/source;vi 'index.js'";
 alias 9_utility_test="cd ${BIZ9_HOME}biz9-utility/source;vi 'test.js'";
 #
-alias 9_service_start='cd ${BIZ9_HOME}biz9-project-service/source;9_node_mongo_start';
+alias 9_project_service_start='cd ${BIZ9_HOME}biz9-project-service/source;9_node_mongo_start';
 alias 9_project_service='cd ${BIZ9_HOME}biz9-project-service/source';
 alias 9_project_service_edit="cd ${BIZ9_HOME}biz9-project-service/source;vi 'index.js'";
 alias 9_project_service_test="cd ${BIZ9_HOME}biz9-project-service/source;vi 'test.js'";
@@ -178,12 +178,21 @@ alias 9_mongo_start="sudo mongod --fork --config /etc/mongod.conf";
 #npm
 alias 9_npm_publish="bash ${BIZ9_SCRIPTZ_DIRECTORY}npm_publish.sh";
 alias 9_npm_cache_clear="npm cache clean --force";
-alias 9_npm_library_biz9_logic_setup="npm uninstall biz9-logic --force; npm install biz9-logic --force";
-alias 9_npm_library_biz9_scriptz_setup="npm uninstall biz9-scriptz --force; npm install biz9-scriptz --force";
-alias 9_npm_library_biz9_utility_setup="npm uninstall biz9-utility --force; npm install biz9-utility --force";
+###
 alias 9_npm_library_biz9_data_setup="npm uninstall biz9-data --force; npm install biz9-data --force";
+
+alias 9_npm_library_biz9_favorite_setup="npm uninstall biz9-favorite --force; npm install biz9-favorite --force";
+
+alias 9_npm_library_biz9_data_logic_setup="npm uninstall biz9-data-logic --force; npm install biz9-data-logic --force";
+alias 9_npm_library_biz9_scriptz_setup="npm uninstall biz9-scriptz --force; npm install biz9-scriptz --force";
+alias 9_npm_library_biz9_service_setup="npm uninstall biz9-service --force; npm install biz9-service --force";
+alias 9_npm_library_biz9_utility_setup="npm uninstall biz9-utility --force; npm install biz9-utility --force";
 alias 9_npm_library_biz9_image_setup="npm uninstall biz9-image --force; npm install biz9-image --force";
 alias 9_npm_library_biz9_react_remote_setup="npm uninstall biz9-react-remote --force; npm install biz9-react-remote --force";
+alias 9_npm_library_biz9_review_setup="npm uninstall biz9-review --force; npm install biz9-review --force";
+alias 9_npm_library_biz9_store_setup="npm uninstall biz9-store --force; npm install biz9-store --force";
+alias 9_npm_library_biz9_user_setup="npm uninstall biz9-user --force; npm install biz9-user --force";
+alias 9_npm_library_biz9_website_setup="npm uninstall biz9-website --force; npm install biz9-website --force";
 
 #redis
 alias 9_redis_start="service redis-server start";
@@ -192,6 +201,7 @@ alias 9_redis_flush="redis-cli FLUSHALL";
 #os
 alias 9_os_info="lsb_release -a";
 alias 9_monitor_bright='brightnessctl set 100%';
+alias 9_reboot='sudo reboot';
 alias 9_power_off='sudo poweroff';
 ## BiZ9 Framework ScriptZ Alias End ###
 
