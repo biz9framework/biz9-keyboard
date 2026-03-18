@@ -96,11 +96,15 @@ alias 9_utility_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-utility/so
 alias 9_utility_edit="cd ${BIZ9_HOME}biz9-utility/source;vi 'index.js'";
 alias 9_utility_test="cd ${BIZ9_HOME}biz9-utility/source;vi 'test.js'";
 #
-alias 9_project_service_start='cd ${BIZ9_HOME}biz9-project-service/source;9_node_mongo_start';
-alias 9_project_service='cd ${BIZ9_HOME}biz9-project-service/source';
-alias 9_project_service_edit="cd ${BIZ9_HOME}biz9-project-service/source;vi -c 'NERDTree'";
-alias 9_project_service_test="cd ${BIZ9_HOME}biz9-project-service/source;vi 'test.js'";
-
+alias 9_service_server_start='cd ${BIZ9_HOME}biz9-service-server/source;9_node_mongo_start';
+alias 9_service_server='cd ${BIZ9_HOME}biz9-service-server/source';
+alias 9_service_server_edit="cd ${BIZ9_HOME}biz9-service-server/source;vi -c 'NERDTree'";
+alias 9_service_server_test="cd ${BIZ9_HOME}biz9-service-server/source;vi 'test.js'";
+#
+alias 9_stat='cd ${BIZ9_HOME}biz9-stat/source';
+alias 9_stat_edit="cd ${BIZ9_HOME}biz9-stat/source;vi -c 'NERDTree'";
+alias 9_stat_test="cd ${BIZ9_HOME}biz9-stat/source;vi 'test.js'";
+#
 alias 9_website='cd ${BIZ9_HOME}biz9-website/source';
 alias 9_website_edit="cd ${BIZ9_HOME}biz9-website/source;vi 'index.js'";
 alias 9_website_test="cd ${BIZ9_HOME}biz9-website/source;vi 'test.js'";
@@ -189,20 +193,18 @@ alias 9_npm_publish="bash ${BIZ9_SCRIPTZ_DIRECTORY}npm_publish.sh";
 alias 9_npm_cache_clear="npm cache clean --force";
 ###
 alias 9_npm_library_biz9_data_setup="npm uninstall biz9-data --force; npm install biz9-data --force";
-
-alias 9_npm_library_biz9_favorite_setup="npm uninstall biz9-favorite --force; npm install biz9-favorite --force";
-
 alias 9_npm_library_biz9_data_logic_setup="npm uninstall biz9-data-logic --force; npm install biz9-data-logic --force";
-alias 9_npm_library_biz9_scriptz_setup="npm uninstall biz9-scriptz --force; npm install biz9-scriptz --force";
-alias 9_npm_library_biz9_service_setup="npm uninstall biz9-service --force; npm install biz9-service --force";
-alias 9_npm_library_biz9_utility_setup="npm uninstall biz9-utility --force; npm install biz9-utility --force";
+alias 9_npm_library_biz9_favorite_setup="npm uninstall biz9-favorite --force; npm install biz9-favorite --force";
 alias 9_npm_library_biz9_image_setup="npm uninstall biz9-image --force; npm install biz9-image --force";
 alias 9_npm_library_biz9_react_remote_setup="npm uninstall biz9-react-remote --force; npm install biz9-react-remote --force";
 alias 9_npm_library_biz9_review_setup="npm uninstall biz9-review --force; npm install biz9-review --force";
+alias 9_npm_library_biz9_scriptz_setup="npm uninstall biz9-scriptz --force; npm install biz9-scriptz --force";
+alias 9_npm_library_biz9_service_setup="npm uninstall biz9-service --force; npm install biz9-service --force";
+alias 9_npm_library_biz9_stat_setup="npm uninstall biz9-stat --force; npm install biz9-stat --force";
 alias 9_npm_library_biz9_store_setup="npm uninstall biz9-store --force; npm install biz9-store --force";
+alias 9_npm_library_biz9_utility_setup="npm uninstall biz9-utility --force; npm install biz9-utility --force";
 alias 9_npm_library_biz9_user_setup="npm uninstall biz9-user --force; npm install biz9-user --force";
 alias 9_npm_library_biz9_website_setup="npm uninstall biz9-website --force; npm install biz9-website --force";
-
 #redis
 alias 9_redis_start="service redis-server start";
 alias 9_redis_flush="redis-cli FLUSHALL";
