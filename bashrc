@@ -97,6 +97,7 @@ alias 9_utility_edit="cd ${BIZ9_HOME}biz9-utility/source;vi 'index.js'";
 alias 9_utility_test="cd ${BIZ9_HOME}biz9-utility/source;vi 'test.js'";
 #
 alias 9_service_server_start='cd ${BIZ9_HOME}biz9-service-server/source;9_node_mongo_start';
+alias 9_service_start='cd ${BIZ9_HOME}biz9-service-server/source;9_node_mongo_start';
 alias 9_service_server='cd ${BIZ9_HOME}biz9-service-server/source';
 alias 9_service_server_edit="cd ${BIZ9_HOME}biz9-service-server/source;vi -c 'NERDTree'";
 alias 9_service_server_test="cd ${BIZ9_HOME}biz9-service-server/source;vi 'test.js'";
