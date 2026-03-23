@@ -62,6 +62,14 @@ alias 9_favorite_data_test="cd ${BIZ9_HOME}biz9-favorite-data/source;vi 'test.js
 alias 9_data='cd ${BIZ9_HOME}biz9-data/source';
 alias 9_data_edit="cd ${BIZ9_HOME}biz9-data/source;vi 'index.js'";
 alias 9_data_test="cd ${BIZ9_HOME}biz9-data/source;vi 'test.js'";
+alias 9_data_test_data_count='bash test_run data_count';
+alias 9_data_test_data_copy='bash test_run data_copy';
+alias 9_data_test_data_delete='bash test_run data_delete';
+alias 9_data_test_data_delete_search='bash test_run data_delete_search';
+alias 9_data_test_data_get='bash test_run data_get';
+alias 9_data_test_data_post='bash test_run data_post';
+alias 9_data_test_data_post_items='bash test_run data_post_items';
+alias 9_data_test_data_search='bash test_run data_search';
 #
 alias 9_data_logic='cd ${BIZ9_HOME}biz9-data-logic/source';
 alias 9_data_logic_edit="cd ${BIZ9_HOME}biz9-data-logic/source;vi 'index.js'";
@@ -82,6 +90,10 @@ alias 9_store_test="cd ${BIZ9_HOME}biz9-store/source;vi 'test.js'";
 alias 9_store_data='cd ${BIZ9_HOME}biz9-store-data/source';
 alias 9_store_data_edit="cd ${BIZ9_HOME}biz9-store-data/source;vi 'index.js'";
 alias 9_store_data_test="cd ${BIZ9_HOME}biz9-store-data/source;vi 'test.js'";
+alias 9_store_data_test_store_data_post_cart='bash test_run store_data_post_cart';
+alias 9_store_data_test_store_data_get_cart='bash test_run store_data_get_cart';
+alias 9_store_data_test_store_data_post_order='bash test_run store_data_post_order';
+alias 9_store_data_test_store_data_get_order='bash test_run store_data_get_order';
 #
 alias 9_hack='cd ${BIZ9_HOME}biz9-hack/source';
 alias 9_hack_edit="cd ${BIZ9_HOME}biz9-hack/source;vi 'index.js'";
@@ -111,6 +123,16 @@ alias 9_service_start='cd ${BIZ9_HOME}biz9-service-server/source;9_node_mongo_st
 alias 9_service_server='cd ${BIZ9_HOME}biz9-service-server/source';
 alias 9_service_server_edit="cd ${BIZ9_HOME}biz9-service-server/source;vi -c 'NERDTree'";
 alias 9_service_server_test="cd ${BIZ9_HOME}biz9-service-server/source;vi 'test.js'";
+
+alias 9_test_service_server_data_post="bash test_run data_post";
+alias 9_test_service_server_data_get="bash test_run data_get";
+alias 9_test_service_server_data_post_items="bash test_run data_post_items";
+alias 9_test_service_server_data_delete="bash test_run data_delete";
+alias 9_test_service_server_data_delete_search="bash test_run data_delete_search";
+alias 9_test_service_server_data_copy="bash test_run data_copy";
+alias 9_test_service_server_data_search="bash test_run data_search";
+alias 9_test_service_server_data_count="bash test_run data_count";
+
 #
 alias 9_stat='cd ${BIZ9_HOME}biz9-stat/source';
 alias 9_stat_edit="cd ${BIZ9_HOME}biz9-stat/source;vi -c 'NERDTree'";
