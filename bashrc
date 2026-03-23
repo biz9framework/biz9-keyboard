@@ -83,6 +83,12 @@ alias 9_store_data='cd ${BIZ9_HOME}biz9-store-data/source';
 alias 9_store_data_edit="cd ${BIZ9_HOME}biz9-store-data/source;vi 'index.js'";
 alias 9_store_data_test="cd ${BIZ9_HOME}biz9-store-data/source;vi 'test.js'";
 #
+alias 9_hack='cd ${BIZ9_HOME}biz9-hack/source';
+alias 9_hack_edit="cd ${BIZ9_HOME}biz9-hack/source;vi 'index.js'";
+alias 9_hack_test="cd ${BIZ9_HOME}biz9-hack/source;vi 'test.js'";
+alias 9_hack_test_post_app='bash test_run post_app';
+alias 9_hack_test_post_user='bash test_run post_user';
+#
 alias 9_user='cd ${BIZ9_HOME}biz9-user/source';
 alias 9_user_edit="cd ${BIZ9_HOME}biz9-user/source;vi 'index.js'";
 alias 9_user_test="cd ${BIZ9_HOME}biz9-user/source;vi 'test.js'";
@@ -90,6 +96,10 @@ alias 9_user_test="cd ${BIZ9_HOME}biz9-user/source;vi 'test.js'";
 alias 9_user_data='cd ${BIZ9_HOME}biz9-user-data/source';
 alias 9_user_data_edit="cd ${BIZ9_HOME}biz9-user-data/source;vi 'index.js'";
 alias 9_user_data_test="cd ${BIZ9_HOME}biz9-user-data/source;vi 'test.js'";
+alias 9_user_data_test_register='bash test_run register';
+alias 9_user_data_test_login='bash test_run login';
+alias 9_user_data_test_post='bash test_run post';
+
 #
 alias 9_utility='cd ${BIZ9_HOME}biz9-utility/source';
 alias 9_utility_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-utility/source;9_git_commit;9_git_push';
@@ -224,8 +234,6 @@ alias 9_test_uptime="bash test_run uptime";
 alias 9_test_connect='bash test_run connect';
 alias 9_test_post='bash test_run post';
 alias 9_test_get='bash test_run get';
-alias 9_test_post_app='bash test_run post_app';
-alias 9_test_post_user='bash test_run post_user';
 ### ALIAS TEST END ###
 #
 ### OTHER START ###
