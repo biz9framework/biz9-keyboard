@@ -58,6 +58,9 @@ alias 9_file_test="cd ${BIZ9_HOME}biz9-file/source;vi 'test.js'";
 alias 9_favorite_data='cd ${BIZ9_HOME}biz9-favorite-data/source';
 alias 9_favorite_data_edit="cd ${BIZ9_HOME}biz9-favorite-data/vi 'index.js'";
 alias 9_favorite_data_test="cd ${BIZ9_HOME}biz9-favorite-data/source;vi 'test.js'";
+alias 9_favorite_data_post='bash test_run favorite_data_post';
+alias 9_favorite_data_get='bash test_run favorite_data_get';
+alias 9_favorite_data_delete='bash test_run favorite_data_delete';
 #
 alias 9_data='cd ${BIZ9_HOME}biz9-data/source';
 alias 9_data_edit="cd ${BIZ9_HOME}biz9-data/source;vi 'index.js'";
@@ -78,6 +81,9 @@ alias 9_data_logic_test="cd ${BIZ9_HOME}biz9-data-logic/source;vi 'test.js'";
 alias 9_review='cd ${BIZ9_HOME}biz9-review/source';
 alias 9_review_edit="cd ${BIZ9_HOME}biz9-review/source;vi 'index.js'";
 alias 9_review_test="cd ${BIZ9_HOME}biz9-review/source;vi 'test.js'";
+alias 9_review_data_post='bash test_run review_data_post';
+alias 9_review_data_get='bash test_run review_data_get';
+alias 9_review_data_delete='bash test_run review_data_delete';
 #
 alias 9_review_data='cd ${BIZ9_HOME}biz9-review-data/source';
 alias 9_review_data_edit="cd ${BIZ9_HOME}biz9-review-data/source;vi 'index.js'";
@@ -108,9 +114,9 @@ alias 9_user_test="cd ${BIZ9_HOME}biz9-user/source;vi 'test.js'";
 alias 9_user_data='cd ${BIZ9_HOME}biz9-user-data/source';
 alias 9_user_data_edit="cd ${BIZ9_HOME}biz9-user-data/source;vi 'index.js'";
 alias 9_user_data_test="cd ${BIZ9_HOME}biz9-user-data/source;vi 'test.js'";
-alias 9_user_data_test_register='bash test_run register';
-alias 9_user_data_test_login='bash test_run login';
-alias 9_user_data_test_post='bash test_run post';
+alias 9_user_data_test_register='bash test_run user_data_register';
+alias 9_user_data_test_login='bash test_run user_data_login';
+alias 9_user_data_test_post='bash test_run user_data_post';
 
 #
 alias 9_utility='cd ${BIZ9_HOME}biz9-utility/source';
@@ -123,15 +129,28 @@ alias 9_service_start='cd ${BIZ9_HOME}biz9-service-server/source;9_node_mongo_st
 alias 9_service_server='cd ${BIZ9_HOME}biz9-service-server/source';
 alias 9_service_server_edit="cd ${BIZ9_HOME}biz9-service-server/source;vi -c 'NERDTree'";
 alias 9_service_server_test="cd ${BIZ9_HOME}biz9-service-server/source;vi 'test.js'";
-
-alias 9_test_service_server_data_post="bash test_run data_post";
-alias 9_test_service_server_data_get="bash test_run data_get";
-alias 9_test_service_server_data_post_items="bash test_run data_post_items";
+alias 9_test_service_server_data_count="bash test_run data_count";
+alias 9_test_service_server_data_copy="bash test_run data_copy";
 alias 9_test_service_server_data_delete="bash test_run data_delete";
 alias 9_test_service_server_data_delete_search="bash test_run data_delete_search";
-alias 9_test_service_server_data_copy="bash test_run data_copy";
+alias 9_test_service_server_data_get="bash test_run data_get";
+alias 9_test_service_server_data_post="bash test_run data_post";
+alias 9_test_service_server_data_post_items="bash test_run data_post_items";
 alias 9_test_service_server_data_search="bash test_run data_search";
-alias 9_test_service_server_data_count="bash test_run data_count";
+alias 9_test_service_server_favorite_delete="bash test_run favorite_delete";
+alias 9_test_service_server_favorite_get="bash test_run favorite_get";
+alias 9_test_service_server_favorite_post="bash test_run favorite_post";
+alias 9_test_service_server_review_get="bash test_run review_get";
+alias 9_test_service_server_review_delete="bash test_run review_delete";
+alias 9_test_service_server_review_post="bash test_run review_post";
+alias 9_test_service_server_review_search="bash test_run review_search";
+alias 9_test_service_server_store_get_cart="bash test_run store_get_cart";
+alias 9_test_service_server_store_get_order="bash test_run store_get_order";
+alias 9_test_service_server_store_post_cart="bash test_run store_post_cart";
+alias 9_test_service_server_store_post_order="bash test_run store_post_order";
+alias 9_test_service_server_user_login="bash test_run user_login";
+alias 9_test_service_server_user_post="bash test_run user_post";
+alias 9_test_service_server_user_register="bash test_run user_register";
 
 #
 alias 9_stat='cd ${BIZ9_HOME}biz9-stat/source';
