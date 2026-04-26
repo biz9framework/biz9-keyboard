@@ -124,12 +124,21 @@ alias 9_user_data_test="cd ${BIZ9_HOME}biz9-user-data/source;vi 'test.js'";
 alias 9_user_data_test_register='bash test_run user_data_register';
 alias 9_user_data_test_login='bash test_run user_data_login';
 alias 9_user_data_test_post='bash test_run user_data_post';
-
+#
+alias 9_blank='cd ${BIZ9_HOME}biz9-blank/source';
+alias 9_blank_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-blank/source;9_git_commit;9_git_push';
+alias 9_blank_edit="cd ${BIZ9_HOME}biz9-blank/source;vi 'index.js'";
+alias 9_blank_test="cd ${BIZ9_HOME}biz9-blank/source;vi 'test.js'";
 #
 alias 9_utility='cd ${BIZ9_HOME}biz9-utility/source';
 alias 9_utility_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-utility/source;9_git_commit;9_git_push';
 alias 9_utility_edit="cd ${BIZ9_HOME}biz9-utility/source;vi 'index.js'";
 alias 9_utility_test="cd ${BIZ9_HOME}biz9-utility/source;vi 'test.js'";
+#
+alias 9_stat_data='cd ${BIZ9_HOME}biz9-stat-data/source';
+alias 9_stat_data_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-stat-data/source;9_git_commit;9_git_push';
+alias 9_stat_data_edit="cd ${BIZ9_HOME}biz9-stat-data/source;vi 'index.js'";
+alias 9_stat_data_test="cd ${BIZ9_HOME}biz9-stat-data/source;vi 'test.js'";
 #
 alias 9_server='cd ${BIZ9_HOME}biz9-website-data/source';
 alias 9_server_start='cd ${BIZ9_HOME}biz9-website-data/source;9_node_mongo_start';
@@ -262,6 +271,7 @@ alias 9_npm_library_biz9_data_logic_setup="npm uninstall biz9-data-logic --force
 alias 9_npm_library_biz9_favorite_setup="npm uninstall biz9-favorite --force; npm install biz9-favorite --force";
 alias 9_npm_library_biz9_image_setup="npm uninstall biz9-image --force; npm install biz9-image --force";
 alias 9_npm_library_biz9_react_remote_setup="npm uninstall biz9-react-remote --force; npm install biz9-react-remote --force";
+alias 9_npm_library_biz9_remote_setup="npm uninstall biz9-remote --force; npm install biz9-remote --force";
 alias 9_npm_library_biz9_review_setup="npm uninstall biz9-review --force; npm install biz9-review --force";
 alias 9_npm_library_biz9_scriptz_setup="npm uninstall biz9-scriptz --force; npm install biz9-scriptz --force";
 alias 9_npm_library_biz9_service_setup="npm uninstall biz9-service --force; npm install biz9-service --force";
@@ -275,6 +285,7 @@ alias 9_redis_start="service redis-server start";
 alias 9_redis_flush="redis-cli FLUSHALL";
 
 #os
+brightnessctl set 100%
 alias 9_os_info="lsb_release -a";
 alias 9_monitor_bright='brightnessctl set 100%';
 alias 9_reboot='sudo reboot';
@@ -282,8 +293,7 @@ alias 9_power_off='sudo poweroff';
 ## BiZ9 Framework ScriptZ Alias End ###
 
 ### ALIAS TEST START ###
-alias 9_test_ping_get="bash test_run ping_get";
-alias 9_test_ping_post="bash test_run ping_post";
+alias 9_test_ping="bash test_run ping";
 alias 9_test_uptime="bash test_run uptime";
 alias 9_test_connect='bash test_run connect';
 alias 9_test_post='bash test_run post';
