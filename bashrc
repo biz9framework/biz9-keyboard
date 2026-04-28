@@ -129,6 +129,8 @@ alias 9_blank='cd ${BIZ9_HOME}biz9-blank/source';
 alias 9_blank_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-blank/source;9_git_commit;9_git_push';
 alias 9_blank_edit="cd ${BIZ9_HOME}biz9-blank/source;vi 'index.js'";
 alias 9_blank_test="cd ${BIZ9_HOME}biz9-blank/source;vi 'test.js'";
+alias 9_blank_test_get="bash test_run get";
+#
 #
 alias 9_utility='cd ${BIZ9_HOME}biz9-utility/source';
 alias 9_utility_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-utility/source;9_git_commit;9_git_push';
@@ -139,6 +141,7 @@ alias 9_stat_data='cd ${BIZ9_HOME}biz9-stat-data/source';
 alias 9_stat_data_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-stat-data/source;9_git_commit;9_git_push';
 alias 9_stat_data_edit="cd ${BIZ9_HOME}biz9-stat-data/source;vi 'index.js'";
 alias 9_stat_data_test="cd ${BIZ9_HOME}biz9-stat-data/source;vi 'test.js'";
+
 #
 alias 9_server='cd ${BIZ9_HOME}biz9-website-data/source';
 alias 9_server_start='cd ${BIZ9_HOME}biz9-website-data/source;9_node_mongo_start';
@@ -173,7 +176,6 @@ alias 9_website_data_test_store_post_order="bash test_run store_post_order";
 alias 9_website_data_test_user_login="bash test_run user_login";
 alias 9_website_data_test_user_post="bash test_run user_post";
 alias 9_website_data_test_user_register="bash test_run user_register";
-
 #
 alias 9_stat='cd ${BIZ9_HOME}biz9-stat/source';
 alias 9_stat_edit="cd ${BIZ9_HOME}biz9-stat/source;vi -c 'NERDTree'";
@@ -182,6 +184,18 @@ alias 9_stat_test="cd ${BIZ9_HOME}biz9-stat/source;vi 'test.js'";
 alias 9_website='cd ${BIZ9_HOME}biz9-website/source';
 alias 9_website_edit="cd ${BIZ9_HOME}biz9-website/source;vi 'index.js'";
 alias 9_website_test="cd ${BIZ9_HOME}biz9-website/source;vi 'test.js'";
+#
+alias 9_react_data='cd ${BIZ9_HOME}biz9-react-data/source';
+alias 9_react_data_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-react-data/source;9_git_commit;9_git_push';
+alias 9_react_data_edit="cd ${BIZ9_HOME}biz9-react-data/source;vi 'index.js'";
+alias 9_react_data_test="cd ${BIZ9_HOME}biz9-react-data/source;vi 'test.js'";
+alias 9_react_data_test_data_get="bash test_run data_get";
+alias 9_react_data_test_data_post="bash test_run data_post";
+alias 9_react_data_test_data_post_items="bash test_run data_post_items";
+alias 9_react_data_test_data_delete="bash test_run data_delete";
+alias 9_react_data_test_data_search="bash test_run data_search";
+alias 9_react_data_test_data_delete_search="bash test_run data_delete_search";
+alias 9_react_data_test_data_copy="bash test_run data_copy";
 #
 #biz9-framework-other
 alias 9_biz='cd ${BIZ9_HOME}';
@@ -285,7 +299,6 @@ alias 9_redis_start="service redis-server start";
 alias 9_redis_flush="redis-cli FLUSHALL";
 
 #os
-brightnessctl set 100%
 alias 9_os_info="lsb_release -a";
 alias 9_monitor_bright='brightnessctl set 100%';
 alias 9_reboot='sudo reboot';
