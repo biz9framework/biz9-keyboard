@@ -58,10 +58,10 @@ alias 9_file_test="cd ${BIZ9_HOME}biz9-file/source;vi 'test.js'";
 alias 9_favorite_data='cd ${BIZ9_HOME}biz9-favorite-data/source';
 alias 9_favorite_data_edit="cd ${BIZ9_HOME}biz9-favorite-data/source;vi 'index.js'";
 alias 9_favorite_data_test="cd ${BIZ9_HOME}biz9-favorite-data/source;vi 'test.js'";
-alias 9_favorite_data_test_post='bash test_run favorite_data_post';
-alias 9_favorite_data_test_get='bash test_run favorite_data_get';
-alias 9_favorite_data_test_delete='bash test_run favorite_data_delete';
-alias 9_favorite_data_test_user_search='bash test_run favorite_data_user_search';
+alias 9_favorite_data_test_post='bash test_run favorite_post';
+alias 9_favorite_data_test_get='bash test_run favorite_get';
+alias 9_favorite_data_test_delete='bash test_run favorite_delete';
+alias 9_favorite_data_test_user_search='bash test_run favorite_user_search';
 #
 alias 9_data='cd ${BIZ9_HOME}biz9-data/source';
 alias 9_data_edit="cd ${BIZ9_HOME}biz9-data/source;vi 'index.js'";
@@ -98,15 +98,15 @@ alias 9_store_test="cd ${BIZ9_HOME}biz9-store/source;vi 'test.js'";
 alias 9_store_data='cd ${BIZ9_HOME}biz9-store-data/source';
 alias 9_store_data_edit="cd ${BIZ9_HOME}biz9-store-data/source;vi 'index.js'";
 alias 9_store_data_test="cd ${BIZ9_HOME}biz9-store-data/source;vi 'test.js'";
-
-alias 9_store_data_test_post_cart='bash test_run store_data_post_cart';
-alias 9_store_data_test_get_cart='bash test_run store_data_get_cart';
-alias 9_store_data_test_delete_cart='bash test_run store_data_delete_cart';
-
-alias 9_store_data_test_post_order='bash test_run store_data_post_order';
-alias 9_store_data_test_search_order='bash test_run store_data_search_order';
-alias 9_store_data_test_delete_order='bash test_run store_data_delete_order';
-alias 9_store_data_test_get_order='bash test_run store_data_get_order';
+#
+alias 9_store_data_test_post_cart='bash test_run store_post_cart';
+alias 9_store_data_test_get_cart='bash test_run store_get_cart';
+alias 9_store_data_test_delete_cart='bash test_run store_delete_cart';
+#
+alias 9_store_data_test_post_order='bash test_run store_post_order';
+alias 9_store_data_test_search_order='bash test_run store_search_order';
+alias 9_store_data_test_delete_order='bash test_run store_delete_order';
+alias 9_store_data_test_get_order='bash test_run store_get_order';
 #
 alias 9_hack='cd ${BIZ9_HOME}biz9-hack/source';
 alias 9_hack_edit="cd ${BIZ9_HOME}biz9-hack/source;vi 'index.js'";
@@ -121,9 +121,9 @@ alias 9_user_test="cd ${BIZ9_HOME}biz9-user/source;vi 'test.js'";
 alias 9_user_data='cd ${BIZ9_HOME}biz9-user-data/source';
 alias 9_user_data_edit="cd ${BIZ9_HOME}biz9-user-data/source;vi 'index.js'";
 alias 9_user_data_test="cd ${BIZ9_HOME}biz9-user-data/source;vi 'test.js'";
-alias 9_user_data_test_register='bash test_run user_data_register';
-alias 9_user_data_test_login='bash test_run user_data_login';
-alias 9_user_data_test_post='bash test_run user_data_post';
+alias 9_user_data_test_register='bash test_run user_register';
+alias 9_user_data_test_login='bash test_run user_login';
+alias 9_user_data_test_post='bash test_run user_post';
 #
 alias 9_blank='cd ${BIZ9_HOME}biz9-blank/source';
 alias 9_blank_git_deploy='cd ${HOME}/www/doqbox/biz9-framework/biz9-blank/source;9_git_commit;9_git_push';
@@ -191,11 +191,14 @@ alias 9_react_data_edit="cd ${BIZ9_HOME}biz9-react-data/source;vi 'index.js'";
 alias 9_react_data_test="cd ${BIZ9_HOME}biz9-react-data/source;vi 'test.js'";
 alias 9_react_data_test_data_get="bash test_run data_get";
 alias 9_react_data_test_data_post="bash test_run data_post";
-alias 9_react_data_test_data_post_items="bash test_run data_post_items";
+alias 9_react_data_test_data_post_items="bash test_run data_more_post_items";
 alias 9_react_data_test_data_delete="bash test_run data_delete";
 alias 9_react_data_test_data_search="bash test_run data_search";
 alias 9_react_data_test_data_delete_search="bash test_run data_delete_search";
 alias 9_react_data_test_data_copy="bash test_run data_copy";
+alias 9_react_data_test_favorite_delete="bash test_run favorite_delete";
+alias 9_react_data_test_favorite_post="bash test_run favorite_post";
+alias 9_react_data_test_favorite_user_search="bash test_run favorite_user_search";
 #
 #biz9-framework-other
 alias 9_biz='cd ${BIZ9_HOME}';

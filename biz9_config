@@ -1,4 +1,4 @@
-VERSION='1.0.73'
+VERSION='1.0.74'
 TITLE='BiZ9-Keyboard'
 REPO='git@github.com:biz9framework/biz9-keyboard.git'
 BRANCH='main'
