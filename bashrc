@@ -82,10 +82,10 @@ alias 9_data_logic_test="cd ${BIZ9_HOME}biz9-data-logic/source;vi 'test.js'";
 alias 9_review='cd ${BIZ9_HOME}biz9-review/source';
 alias 9_review_edit="cd ${BIZ9_HOME}biz9-review/source;vi 'index.js'";
 alias 9_review_test="cd ${BIZ9_HOME}biz9-review/source;vi 'test.js'";
-alias 9_review_data_test_parent_search='bash test_run review_data_parent_search';
-alias 9_review_data_test_post='bash test_run review_data_post';
-alias 9_review_data_test_get='bash test_run review_data_get';
-alias 9_review_data_test_delete='bash test_run review_data_delete';
+alias 9_review_data_test_parent_search='bash test_run review_parent_search';
+alias 9_review_data_test_post='bash test_run review_post';
+alias 9_review_data_test_get='bash test_run review_get';
+alias 9_review_data_test_delete='bash test_run review_delete';
 #
 alias 9_review_data='cd ${BIZ9_HOME}biz9-review-data/source';
 alias 9_review_data_edit="cd ${BIZ9_HOME}biz9-review-data/source;vi 'index.js'";
@@ -99,14 +99,14 @@ alias 9_store_data='cd ${BIZ9_HOME}biz9-store-data/source';
 alias 9_store_data_edit="cd ${BIZ9_HOME}biz9-store-data/source;vi 'index.js'";
 alias 9_store_data_test="cd ${BIZ9_HOME}biz9-store-data/source;vi 'test.js'";
 #
-alias 9_store_data_test_post_cart='bash test_run store_post_cart';
-alias 9_store_data_test_get_cart='bash test_run store_get_cart';
-alias 9_store_data_test_delete_cart='bash test_run store_delete_cart';
+alias 9_store_data_test_post_cart='bash test_run post_cart';
+alias 9_store_data_test_get_cart='bash test_run get_cart';
+alias 9_store_data_test_delete_cart='bash test_run delete_cart';
 #
-alias 9_store_data_test_post_order='bash test_run store_post_order';
-alias 9_store_data_test_search_order='bash test_run store_search_order';
-alias 9_store_data_test_delete_order='bash test_run store_delete_order';
-alias 9_store_data_test_get_order='bash test_run store_get_order';
+alias 9_store_data_test_post_order='bash test_run post_order';
+alias 9_store_data_test_search_order='bash test_run search_order';
+alias 9_store_data_test_delete_order='bash test_run delete_order';
+alias 9_store_data_test_get_order='bash test_run get_order';
 #
 alias 9_hack='cd ${BIZ9_HOME}biz9-hack/source';
 alias 9_hack_edit="cd ${BIZ9_HOME}biz9-hack/source;vi 'index.js'";
